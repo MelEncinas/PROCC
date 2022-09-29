@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/f5652ac366.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="archivo.css">
+        <title> Computación </title>
+    
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+    
+                <header>
+                    <div class="row">
+                        <div class="col-md-12 col-xs-1">
+                            <div class="s004">
+                                <form>
+                                    <fieldset>
+                                        <div class="inner-form">
+                                            <div class="input-field">
+                                                <input class="form-control" id="choices-text-preset-values" type="text"
+                                                    placeholder="¿Qué estás buscando?" />
+                                                <button class="btn-search" type="button">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24">
+                                                        <path
+                                                            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                                        </path>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin barra de busqueda-->
+                    <div class="diviconoP">
+                        <a title="icono P" href="./index.html"> <img class="iconoP" src="./assets/IconoP.png" alt="icono P">
+                        </a>
+                    </div>
+                    <!--comienzo menu-->
+                    <div class="menu">
+                        <div class="row">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <div class="container-fluid">
+                                    <div class="d-flex flex-grow-1">
+                                        <span class="d-lg-none d-block"></span>
+                                        <div class="text-right">
+                                            <div class="botonhamburguesa">
+                                                <button class="navbar-toggler boton-desplegable" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#miNavbarPROCC">
+                                                    <span class="navbar-toggler-icon"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="collapse navbar-collapse flex-grow-1 text-right" id="miNavbarPROCC">
+                                        <div class="menubarra">
+                                            <ul class="navbar-nav ms-auto flex-nowrap">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="index.html"> Página principal </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="areapersonal.html"> Área personal </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="misdatos.html"> Mis Datos </a>
+                                                </li>
+                                                <li class="nav-item dropdown navbar-light">
+                                                    <a class="nav-link dropdown-toggle" href="cursos.html" id="submenu"
+                                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Cursos </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="submenu">
+                                                        <li><a class="dropdown-item" href="oratoria.html">Oratoria</a></li>
+                                                        <li><a class="dropdown-item" href="redaccion.html">Redacción</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                href="forocomprension.html">Comprensión</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="computacion.html">Computación</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="programacion.html">Programación
+                                                                Básica</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="quienessomos.html"> ¿Quiénes somos? </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="preguntasfrecuentes.html"> Preguntas
+                                                        frecuentes </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+    
+                </header>
+    
+                <div class="divswitch">
+                    <button class="switch" id="switch" onclick="sound.play()">
+                        <span> <i class="fas fa-sun"></i> </span>
+                        <span> <i class="fas fa-moon"></i></span>
+                    </button>
+                </div>
+    
+                <button class="btnvolvercursos">
+                    <a href="./cursos.html"> Ir a la sección de cursos</a>
+                </button>
+    
+                <!--comienzo contenido-->
+                <div class="col-xs-12 col-sm-12 col-md-8 order-sm-2">
+                    <div class="contenido">
+                        <h2 id="pregFrecuentes"> Preguntas Frecuentes </h2>
+    
+                        <p class="pdark"> ¿Que es la computación? ¿Soy demasiado joven o demasiado adulto para aprender? ¿Es
+                            necesario
+                            aprenderla en
+                            mi área de trabajo? Si alguna vez te hiciste alguna de estas preguntas, hacete un mate, una taza
+                            de té o lo
+                            que sea y comencemos a educarnos. </p>
+    
+                        <h3 id="defComputacion"> ¿Qué es la computación? </h3>
+    
+                        <p class="pdark">
+                            La computación o informática, es la <b>que se ocupa del estudio de las computadoras, abarcando
+                                su diseño,
+                                operación y uso en el procesamiento de datos.</b> En otras palabras, la computación alude al
+                            estudio
+                            científico que se fundamenta sobre sistemas automáticos para el manejo de información, que
+                            pueden realizarse
+                            por medio de herramientas pensadas para dicho fin. Un concepto un poco amplio ¿verdad? Es
+                            cierto, ya que
+                            éste comprende varias áreas de estudio. Algunas de ellas son:
+                        <ul>
+                            <li><b> Estructuras de datos y algoritmos </b></li>
+                            <li><b> Arquitectura de computadoras </b></li>
+                            <li><b> Programación </b></li>
+                            <li><b> Ofimática </b></li>
+                            <li><b> Sistemas operativos </b></li>
+                        </ul>
+                        Estas, entre muchos otras comprenden la idea global de lo que es esta ciencia. Aunque nosotras nos
+                        centraremos
+                        en las últimas tres y agregaremos la mecanografía, habilidad que es muy útil (y a mi parecer
+                        indispensable) al
+                        trabajar en la computación.
+                        </p>
+    
+                        <h3 id="edad"> ¿Cuál es la mejor edad para adquirirla? </h3>
+                        <p class="pdark"> Así como es transversal a cualquier profesión, es necesaria a cualquier edad. Cómo
+                            todo
+                            conocimiento,
+                            mientras más de peque se desarrolle, mejor. Esto no quiere decir que si se es adulto no se puede
+                            aprender ya
+                            que, gracias a la plasticidad cerebral, está demostrado que podemos aprender lo que queramos a
+                            cualquier
+                            edad.
+                        </p>
+    
+                        <h3 id="importancia"> ¿Por qué es tan importante? </h3>
+                        <p class="pdark"> Vamos a decirlo rápido y sin tanta vuelta. Es importante ya que no importa que
+                            profesión planees
+                            tener, te
+                            va a salvar la vida. Te va a preparar para enfrentar este mundo donde todo está sistematizado.
+                        </p>
+    
+                        <h4 id="impNinios"> ¿Por qué es importante que los niños aprendan computación? </h4>
+                        <p class="pdark"> Quise dedicarle un poco más a desarrollar la importancia de aprenderla a edad
+                            temprana porque me
+                            parece
+                            indispensable tenerlo en cuenta. Si hablamos de niños, muchos de estos pequeños monstruitos
+                            creen que las
+                            computadoras son solo dispositivos de juego de los cuales obtienen diversión infinita. Aprender
+                            informática
+                            le enseñará que en realidad estos equipos sirven para mucho más. Además, los guiará para que
+                            aprendan a usar
+                            inteligentemente las computadoras y provechar al máximo todos sus componentes.
+                            Cómo sabemos, en la etapa de la niñez es cuando tienen la capacidad de absorber mucho
+                            conocimiento con
+                            rapidez. Gran cantidad de niños crecen con el privilegio de vivir rodeados de tecnología,
+                            prácticamente
+                            nacen con tabletas y consolas de juegos. Que mejor que aprovechar esta posibilidad para también
+                            enseñarles
+                            como desenvolverse y defenderse con esta herramienta tan necesaria en esta era. Cultivar estas
+                            habilidades
+                            les dará muchas ventajas, entre las cuales podemos nombrar:
+                        <ul class="pdark">
+                            <li><b> Estimula la capacidad de pensamiento </b></li>
+                            <li><b> Ayuda desarrollar la capacidad de trabajar en grupo </b></li>
+                            <li><b> Incentiva a la independencia y a la capacidad de discernir entre fuentes confiables y no
+                                    confiables
+                                </b></li>
+                            <li><b> Ayuda a desarrollar su pensamiento lógico y matemático desde edades tempranas </b></li>
+                            <li><b> Fomenta la creatividad </b></li>
+                        </ul>
+                        Obviamente estos beneficios son tanto para adultos como para niños.
+                        En esta sección vamos a centrarnos en tres, las cuales considero las más importantes:
+                        “Mecanografía”,
+                        "Ofimática” y “Sistemas Operativos”, sin embargo, al final de la les voy a dejar el link a algunas
+                        páginas para
+                        que sigan investigando un poco más.
+                        </p>
+    
+                        <h2 id="mecanografia"> Mecanografía computarizada </h2>
+    
+                        <p class="pdark"> Desarrollar esta habilidad no puede eludirse como actividad asociada al campo
+                            informático, pues
+                            tanto en el
+                            momento de estudiar como de trabajar se hace imprescindible saber manejar con soltura el teclado
+                            de
+                            ordenado. Esta tarea que, sencillamente, se aprende con la práctica, conlleva una serie de
+                            pautas a aprender
+                            para mecanizar el proceso de escritura con teclado de forma correcta. No es lo mismo aprender
+                            informática
+                            sin prestar atención al proceso mecanográfico que ir asimilando las características propias de
+                            una escritura
+                            ordenada y rápida.
+                            Muchos puestos de trabajo, procesos de selección y pruebas para optar a una vacante de empleo,
+                            requieren
+                            saber mecanografía para demostrarlo de forma hábil; no vale con salir del paso escribiendo, sino
+                            que
+                            conviene utilizar todos los dedos de la mano, ágilmente, sin rectificar constantemente sobre el
+                            texto
+                            escrito, para dar buena impresión sobre esta habilidad adquirida; es por ello que la formación
+                            mecanográfica
+                            resulta primordial.
+                            <b>Utilizar este tipo de tecnología facilita y mejora el trabajo del profesional.</b> Como todos
+                            sabemos la
+                            tecnología informática está en auge, cada vez dependemos más de la tecnología y debemos
+                            adaptarnos a los
+                            cambios. La formación en este ámbito mejora la imagen profesional y dota a la persona de un
+                            mejor CV.</b>
+                        </p>
+    
+                        <h3 id="factInfluyentes"> ¿Qué otros factores influyen? </h3>
+                        <p class="pdark">
+                            Hay diversos factores que influyen en una buena mecanografía. Nos podemos encontrar con:
+                        <ul>
+                            <li><b>Teclado</b>: Debes conocer tanto el teclado como las partes del mismo. Un teclado se
+                                divide en zona
+                                de teclado alfanumérico, zona de teclado numérico, zona de teclado de navegación y zona de
+                                teclado de
+                                funciones.</li>
+                            <li><b>Memorizar</b>: Es muy importante memorizar donde está cada letra para poder escribir sin
+                                mirar el
+                                teclado. Esta técnica se llama mecanet. Las letras A, S, D, F y G, se marcan con la mano
+                                izquierda, las
+                                letras L, K, J y H se marcan con la mano derecha.</li>
+                            <li><b>Postura</b>: Es muy importante tomar la postura adecuada para poder usar el teclado de la
+                                manera más
+                                cómoda y conveniente posible. En cuanto al ordenador, es fundamental tener el monitor a una
+                                altura
+                                suficiente, más concretamente a la altura de los ojos. Y con respecto a la postura, debes
+                                tener el
+                                antebrazo y el brazo en forma de L, los codos pegados al cuerpo y los pies reposados en el
+                                suelo.</li>
+                        </ul>
+                        </p>
+    
+                        <h3 id="recomendaciones"> Recomendaciones para aprender mecanografía </h3>
+                        <p class="pdark">
+                        <ul>
+                            <li> Leer las palabras mientras se escriben ya que mejora la agilidad. </li>
+                            <li> Practicar continuamente. Como dicen por ahí, la practica hace al maestro. </li>
+                            <li> Escribir a un ritmo lento al principio e ir aumentado el ritmo. Escribir más rápido no
+                                significa
+                                escribir mejor. Ir aumentando el ritmo de manera progresiva.</li>
+                            <li> Adoptar una postura correcta.</li>
+                            <li> Ambiente silencioso y tranquilo. Necesitas un ambiente relajado para poder progresar y
+                                desempeñar bien
+                                las diferentes tareas.</li>
+                            <li>Capacidad de concentración alta. A mayor concentración, mejores resultados.</li>
+                        </ul>
+                        </p>
+    
+                        <h3 id="cursos1"> Cursos Gratis </h3>
+                        <p class="pdark">Proximamente</p>
+    
+                        <h2 id="sistOperativos"> Sistemas Operativos </h2>
+    
+                        <p class="pdark">
+    
+                            Un sistema operativo es un <b> conjunto de programas que permite manejar la memoria, disco,
+                                medios de
+                                almacenamiento de información y los diferentes periféricos o recursos de nuestra
+                                computadora</b>, como
+                            son el teclado, el mouse, la impresora, la placa de red, entre otros. Es decir, permite la
+                            administración
+                            eficaz de los recursos de una computadora. Estos programas comienzan a trabajar apenas se
+                            enciende el
+                            equipo, ya que gestionan el hardware desde los niveles más básicos y permiten además la
+                            interacción con el
+                            usuario.
+                            Cabe destacar que los sistemas operativos no funcionan sólo en las computadoras, sino que <b>se
+                                encuentran
+                                en la mayoría de los dispositivos electrónicos que utilizan microprocesadores</b>: el
+                            software de
+                            sistema posibilita que el aparato cumpla con sus funciones (por ejemplo, un teléfono móvil o un
+                            reproductor
+                            de DVD).
+                        </p>
+    
+                        <h3 id="funcionamiento"> Cómo funciona un Sistema Operativo </h3>
+                        <p class="pdark">
+                            Los sistemas operativos proporcionan una plataforma de software encima de la cual otros
+                            programas, llamados
+                            aplicaciones, puedan funcionar. Las aplicaciones se programan para que funcionen encima de un
+                            sistema
+                            operativo particular, por tanto, la elección del sistema operativo determina en gran medida las
+                            aplicaciones
+                            que puedes utilizar.
+                            <b>Los sistemas operativos más utilizados en los PC son DOS, OS/2, y Windows, pero hay otros que
+                                también se
+                                utilizan, como por ejemplo Linux.</b>
+    
+                        </p>
+    
+                        <h3 id="utilizacion"> Cómo se utiliza un Sistema Operativo </h3>
+    
+                        <p class="pdark">
+                            Un usuario normalmente interactúa con el sistema operativo a través de un sistema de comandos,
+                            por ejemplo,
+                            el sistema operativo DOS contiene comandos como copiar y pegar para copiar y pegar archivos
+                            respectivamente.
+                            Los comandos son aceptados y ejecutados por una parte del sistema operativo llamada procesador
+                            de comandos o
+                            intérprete de la línea de comandos. Las interfaces gráficas permiten que utilices los comandos
+                            señalando y
+                            pinchando en objetos que aparecen en la pantalla.
+                        </p>
+    
+                        <h3 id="ejemplos"> Ejemplos de Sistema Operativo </h3>
+                        <p class="pdark">
+                            Familia Windows
+                        <ul>
+                            <li> Windows XP </li>
+                            <li> Windows Vista </li>
+                            <li> Windows 2000 </li>
+                        </ul>
+                        Familia Macintosh
+                        <ul>
+                            <li> MAC OS 7 </li>
+                            <li> MAC OS 8 </li>
+                            <li> MAC OS 9 </li>
+                            <li> MAC OS X </li>
+                        </ul>
+                        Familia UNIX
+                        <ul>
+                            <li> AIX </li>
+                            <li> AMIX </li>
+                            <li> GNU/Linux </li>
+                            <li> GNU/Hurd </li>
+                            <li> HP-UX </li>
+                            <li> Irix </li>
+                            <li> Minix </li>
+                            <li> System V </li>
+                            <li> Solaris </li>
+                            <li> UnixWare </li>
+                        </ul>
+                        </p>
+    
+                        <h3 id="funciones"> Principales funciones de un sistema operativo </h3>
+    
+                        <p class="pdark">
+                            El sistema operativo cumple con cinco funciones básicas: el suministro de interfaz al usuario,
+                            la
+                            administración de recursos, la administración de archivos, la administración de tareas y el
+                            servicio de
+                            soporte y utilidades.
+                            En cuanto a la interfaz al usuario, el sistema se encarga de que el sujeto pueda cargar
+                            programas, acceder a
+                            sus archivos y realizar otras tareas con la computadora. La administración de recursos permite
+                            la dirección
+                            del hardware, incluyendo los periféricos y la red.
+                            El software de sistema también se encarga de la gestión de archivos, al controlar la creación,
+                            la
+                            eliminación y el acceso a los mismos, y de la administración de las tareas informáticas que
+                            llevan adelante
+                            los usuarios finales.
+                            Además podemos mencionar que el servicio de soporte se encarga de actualizar las versiones,
+                            mejorar la
+                            seguridad del sistema, agregar nuevas utilidades, controlar los nuevos periféricos que se
+                            agregan a la
+                            computadora y corregir los errores del software.
+                        </p>
+    
+                        <h3 id="cursos2"> Cursos Gratuitos </h3>
+                        <p class="pdark">
+                            Próximamente
+                        </p>
+    
+                        <h3 id="libros2"> Libros Recomendados </h3>
+                        <p class="pdark">
+                            Próximamente
+                        </p>
+    
+                        <h2 id="ofimatica"> Ofimática </h2>
+    
+                        <p class="pdark">
+                            La ofimática es el conjunto de métodos, aplicaciones y herramientas informáticas que se usan en
+                            labores de
+                            oficina con el <b>fin de perfeccionar, optimizar, mejorar el trabajo y operaciones
+                                relacionados.</b> En
+                            referencia a lo anterior, la estructura ofimática abarca desde computadoras, impresoras,
+                            escáneres
+                            conectados mediante una red de área local hasta teléfonos y equipos de fax.
+                            Acá nos vamos a centrar en los programas informáticos de oficina los cuales permiten crear,
+                            manipular,
+                            almacenar y transmitir digitalmente la información que se necesita en una oficina para realizar
+                            las tareas
+                            cotidianas y alcanzar sus objetivos.
+                        </p>
+    
+                        <h2 id="progOficina"> Programas informáticos de oficina </h2>
+    
+                        <p class="pdark">
+                            Se conoce como suite ofimática, por último, a la recopilación de programas informáticos que son
+                            de uso
+                            habitual en las oficinas. Estas suites suelen incluir procesador de texto, hoja de cálculo,
+                            gestión de base
+                            de datos, cliente de correo electrónico, agenda y administrador de presentaciones o
+                            diapositivas.
+                            Un procesador de texto es un programa que le permite al usuario redactar casi cualquier tipo de
+                            documento,
+                            siempre que su contenido principal sea estático. Por lo general, recurrimos a él para la
+                            creación de textos,
+                            aunque también es posible elaborar un panfleto o incluso una tabla de valores.
+                            Actualmente, el desarrollo de la tecnología en una empresa es fundamental para el logro de sus
+                            objetivos, es
+                            por ello que la ofimática es de gran utilidad ya que facilita el desempeño de las labores,
+                            permite que el
+                            trabajo pueda ejecutarse en menor tiempo y ayuda a optimizar los procesos esenciales de una
+                            empresa.
+                            Algunos ejemplos de estos programas son Microsoft Word. Microsoft Word es el programa de
+                            ofimática más
+                            solicitado del mercado.
+    
+                        <ul>
+                            <li>Microsoft Excel</li>
+                            <li>Microsoft PowerPoint</li>
+                            <li>Google Drive</li>
+                            <li>Google Docs</li>
+                            <li>Google Slides</li>
+                            <li>Google Spreadsheets</li>
+                            <li>Dropbox/Dropbox Paper</li>
+                        </ul>
+    
+                        <h3 id="cursos3"> Cursos Gratuitos </h3>
+                        <p class="pdark">
+                            Próximamente
+                        </p>
+    
+                        <h3 id="libros3"> Libros Recomendados </h3>
+                        <p class="pdark">
+                            Próximamente
+                        </p>
+    
+                        <h2 id="programacion"> Programación </h2>
+    
+                        <p class="pdark">
+                            La programación se define como el proceso de crear, probar, depurar, compilar y
+                            mantener un programa de computadora, todo ello mediante sentencias lógicas
+                            escritas en un lenguaje humano y que después será traducido a un lenguaje que la
+                            computadora pueda procesar.
+                        </p>
+    
+                        <h3 id="logicaDeProg"> Lógica de Programación </h3>
+    
+                        <p class="pdark">
+                            La programación se define como el proceso de crear, probar, depurar, compilar y
+                            mantener un programa de computadora, todo ello mediante sentencias lógicas
+                            escritas en un lenguaje humano y que después será traducido a un lenguaje que la
+                            computadora pueda procesar.
+                        </p>
+                        <div class="uff_div">
+                            <img class="uff" src="./assets/uff.jpg" alt="uff">
+                        </div>
+    
+                        <p class="pdark">
+                            Eso fue intenso.
+                        </p>
+    
+                        <p class="pdark">
+                            Y con esto concluimos esta sección ¿Se entendió? Si no es así…
+                        <div class="hay_tabla">
+                            <img class="hayTabla" src="./assets/hay_tabla.png" alt="hay tabla">
+                        </div>
+                        ¡Nos vemos en la próxima!
+                        <div class="abril">
+                            <img class="abril-img" src="./assets/Abril.png" alt="foto Abril">
+                            <p>
+                                Redactora: Abril.I.Barros
+                            </p>
+                        </div>
+                        </main>
+                    </div>
+                </div>
+                <!--fin contenido-->
+    
+                <!--comienzo sidebar-->
+                <div class="d-col-sm-4 col-md-4 col-lg-4 order-sm-1">
+                    <div class="sticky-top">
+                        <div class="sidebar-fondo">
+                            <h3 class="sidebar-titulo"> En esta página </h3>
+                            <div class="indice">
+    
+                                <table>
+                                    <tr>
+                                        <div>
+                                            <td>
+                                                <ol>
+                                                    <li>
+                                                        <a href="#pregFrecuentes">
+                                                            Preguntas Frecuentes
+                                                        </a>
+                                                        <details>
+                                                            <summary>Ver más...</summary>
+                                                            <ol type="a">
+                                                                <li>
+                                                                    <a href="#defComputacion">
+                                                                        ¿Qué es la computación?
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#edad">
+                                                                        ¿Cuál es la mejor edad para adquirirla?
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#importancia">
+                                                                        ¿Por qué es tan importante?
+                                                                    </a>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#impNinios">
+                                                                                ¿Por qué es importante que los niños
+                                                                                aprendan
+                                                                                computación?
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ol>
+                                                        </details>
+                                                    <li>
+                                                        <a href="#mecanografia">
+                                                            Mecanografía Computarizada
+                                                        </a>
+                                                        <details>
+                                                            <summary>Ver más...</summary>
+                                                            <ol type="a">
+                                                                <li>
+                                                                    <a href="#factInfluyentes">
+                                                                        ¿Qué otros factores influyen?
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#recomendaciones">
+                                                                        Recomendaciones para aprender mecanografía
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#cursos1">
+                                                                        Cursos Gratis
+                                                                    </a>
+                                                                </li>
+                                                            </ol>
+                                                    </li>
+                                                    </details>
+                                                    <li>
+                                                        <a href="#sistOperativos">
+                                                            Sistemas Operativos
+                                                        </a>
+                                                        <details>
+                                                            <summary>Ver más...</summary>
+                                                            <ol type="a">
+                                                                <li>
+                                                                    <a href="#funcionamiento">
+                                                                        Cómo funciona un Sistema Operativo
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#utilizacion">
+                                                                        Cómo se utiliza un Sistema Operativo
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#ejemplos">
+                                                                        Ejemplos de Sistema Operativo
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#funciones">
+                                                                        Principales funciones de un sistema operativo
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#cursos2">
+                                                                        Cursos Gratuitos
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#libros2">
+                                                                        Libros Recomendados
+                                                                    </a>
+                                                                </li>
+                                                            </ol>
+                                                    </li>
+                                                    </details>
+                                                    <li>
+                                                        <a href="#ofimatica">
+                                                            Ofimática
+                                                        </a>
+                                                        <details>
+                                                            <summary>Ver más...</summary>
+                                                            <ol type="a">
+                                                                <li>
+                                                                    <a href="#progOficina">
+                                                                        Programas informáticos de oficina
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#cursos3">
+                                                                        Cursos Gratuitos
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#libros3">
+                                                                        Libros Recomendados
+                                                                    </a>
+                                                                </li>
+                                                            </ol>
+                                                    </li>
+                                                    </details>
+                                                    <li>
+                                                        <a href="#programacion">
+                                                            Programación Básica
+                                                        </a>
+                                                        <details>
+                                                            <summary>Ver más...</summary>
+                                                            <ol type="a">
+                                                                <li>
+                                                                    <a href="#logDeProg">
+                                                                        Lógica de Programación
+                                                                    </a>
+                                                                </li>
+                                                        </details>
+                                                </ol>
+                                                </li>
+                                                </ol>
+                                                </li>
+                                                </li>
+                                                </ol>
+                                            </td>
+                                    </tr>
+                                </table>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fin sidebar-->
+    
+        <footer>
+            <div class="divlogofooter">
+                <a title="logo procc" href="./index.html"> <img class="logofooter" src="./assets/IconoP.png"
+                        alt="logo procc"> </a>
+            </div>
+            <h4 class="h4footer"> Encontranos en </h4>
+    
+            <div class="divfooterimg">
+                <a title="facebook" href="www.facebook.com"><img class="footerimagenes" src="assets/facebook.png"
+                        alt="facebook"></a>
+    
+                <a title="instagram" href="instagram.com"> <img class="footerimagenes" src="./assets/instagram.png"
+                        alt="instagram"> </a>
+    
+                <a title="whatsapp" href="whatsapp.com"> <img class="footerimagenes" src="./assets/whatsapp.png"
+                        alt="whatsapp"> </a>
+    
+                <a title="email" href="outlook.com"> <img class="footerimagenes" src="./assets/sobre.png" alt="email">
+                </a>
+    
+            </div>
+            <h5 class="h5footer"> 2022 &copy; Todos los derechos reservados</h5>
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+    
+
+</html>

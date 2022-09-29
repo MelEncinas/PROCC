@@ -1,0 +1,1271 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*ASPECTOS GENERALES*/
+.row {
+    --bs-gutter-x: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    border-radius: 20px;
+    background-color: rgb(43, 0, 78);
+    background-image: url(./assets/neon3.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+main {
+    background-color: #c4bee0;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.btnvolvercursos {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 1000px;
+    background-color: #7767ca;
+    color: black;
+    margin-top: 10px;
+}
+
+.btnvolvercursos a {
+    color: black;
+}
+
+.btnvolvercursos :hover {
+    color: whitesmoke;
+}
+
+footer {
+    background-image: url(./assets/neon4.jpg);
+}
+
+/*BARRA DE BÚSQUEDA*/
+.s004 {
+    padding-top: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.s004 form legend {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.s004 form .inner-form .input-field {
+    width: 600px;
+    position: relative;
+}
+
+.s004 form .inner-form .input-field .btn-search {
+    width: 70px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*inicio menu*/
+
+.icono-menu {
+    height: 50px;
+    width: 50px;
+}
+
+
+/*MENÚ PRINCIPAL*/
+
+#miNavbarPROCC {
+    background-color: #262e36;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 0;
+
+}
+
+
+#miNavbarPROCC a {
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#miNavbarPROCC a:hover {
+    background-color: #7767ca;
+    border-radius: 20px;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+}
+
+/*------------ Dropdown menu background color------------*/
+.navbar-nav>li>.dropdown-menu {
+    background-color: #262e36;
+}
+
+/*------------Dropdown menu font color------------*/
+.navbar-nav>li>.dropdown-menu a {
+    color: white;
+}
+
+/*FIN MENÚ*/
+.divswitch {
+    padding: 10px;
+    width: 100px;
+}
+
+.icono-menu {
+    height: 50px;
+    width: 50px;
+}
+
+
+.nav-item {
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.divingr {
+    display: flex;
+    justify-content: end;
+}
+
+.diviconoP {
+    display: flex;
+    justify-content: left;
+    margin-left: 70px;
+}
+
+.iconoP {
+    background-color: #e2e0ee;
+    border-radius: 1000px;
+    width: 50px;
+}
+
+.divlogoingresar {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.logoingresar {
+    width: 30px;
+}
+
+.encabezado {
+    right: 50%;
+}
+
+
+
+/*PAGINA PRINCIPAL*/
+
+.encabezado {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.divencabezado {
+    display: flex;
+    justify-content: center;
+}
+
+.gato {
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+.h3cursos,
+.h3principal,
+.h4principal {
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.h3cursos {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.h1principal {
+    background-color: #8d6dc4;
+}
+
+.formregistro {
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.formtitulo {
+    background: #a093e0;
+    color: black;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid #262e36;
+}
+
+.contenedor-inputs {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.input-48 {
+    width: 48%;
+}
+
+.input-100 {
+    width: 100%;
+}
+
+.btnEnviar {
+    background: #262e36;
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btnEnviar:active {
+    transform: scale(1.05);
+}
+
+.formLink {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.accedercursos {
+    text-align: center;
+    bottom: 450px;
+    padding-top: 50px;
+}
+
+.colorcursos {
+    color: rgb(243, 243, 243);
+    width: 400px;
+    background-color: #262e36;
+    background-size: cover;
+    border-radius: 9px;
+    font-size: 30px;
+
+}
+
+.accedercursos :hover {
+    background-color: #7767ca;
+    color: black;
+    border-radius: 20px;
+}
+
+.cursosintroduccion {
+    border-style: double;
+    border-radius: 20px;
+    width: 390px;
+    background-color: #a093e0;
+}
+
+.contamoscursos :hover {
+    background-color: rgb(218, 233, 218);
+    border-radius: 20px;
+
+
+}
+
+/*FIN PÁGINA PRINCIPAL*/
+
+/*ÁREA PERSONAL*/
+.mainareapersonal {
+    background-image: url(./assets/fondoliso.jpg);
+}
+
+.usuario {
+    margin-left: 60px;
+}
+
+.editarusuario {
+    margin-left: 100px;
+    text-decoration: none;
+    color: gray;
+}
+
+.nombreusuario {
+    width: 350px;
+    border-style: dashed;
+    border-color: #1f1530;
+    border-radius: 30px;
+    background-color: #d9d2e4;
+    color: black;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.nombreusuario h2 {
+    text-align: center;
+}
+
+.nombreusuario li {
+    margin-left: 80px;
+    list-style: none;
+    font-size: medium;
+}
+
+.h3cursos {
+    margin-right: 400px;
+}
+
+.fieldsetemocion {
+    border-style: none;
+
+}
+
+.registromotiv {
+    padding: 30px;
+    width: 400px;
+    border-radius: 60px;
+    background-color: rgb(214, 208, 238);
+    bottom: 300px;
+    margin-top: 10px;
+    color: black;
+}
+
+.botonmotiv {
+    margin-left: 50px;
+    border-radius: 9px;
+    border-style: hidden;
+    background-color: #1f1530;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.calendario {
+    color: blueviolet;
+}
+
+.calendario2 {
+    display: flex;
+    margin: 40px;
+    margin-left: 200px;
+    justify-content: center;
+    font-size: x-large;
+}
+
+/*FIN ÁREA PERSONAL*/
+
+.iconocentro {
+    margin: 10px;
+}
+
+/*MIS DATOS*/
+.misdatos {
+    padding: 20px;
+}
+
+/*FIN MIS DATOS*/
+
+/*SECCIÓN CURSOS*/
+.icono {
+    width: 200px;
+}
+
+.aicono {
+    text-decoration: none;
+    color: #262e36;
+}
+
+
+.navcursos {
+    padding: 10px;
+    margin: 20px;
+}
+
+.gorroalumno {
+    text-align: center;
+}
+
+.oratorialink {
+    text-decoration: none;
+    background-color: #9b89c0;
+    color: black;
+    border-radius: 9px;
+}
+
+
+.redaccionlink {
+    text-decoration: none;
+    background-color: #9b89c0;
+    color: black;
+    border-radius: 9px;
+}
+
+.comprensionlink {
+    text-decoration: none;
+    background-color: #9b89c0;
+    color: black;
+    border-radius: 9px;
+}
+
+.computacionlink {
+    text-decoration: none;
+    background-color: #9b89c0;
+    color: black;
+    border-radius: 9px;
+}
+
+
+
+.programacionlink {
+    text-decoration: none;
+    background-color: #9b89c0;
+    color: black;
+    border-radius: 9px;
+}
+
+.estrella1 {
+    width: 100px;
+}
+
+.estrella2 {
+    width: 100px;
+}
+
+.estrella3 {
+    width: 100px;
+}
+
+.estrella4 {
+    width: 100px;
+}
+
+.estrella5 {
+    width: 100px;
+}
+
+.iconocurso {
+    width: 200px;
+}
+
+/*FIN SECCIÓN CURSOS*/
+
+/*COMPRENSIÓN DE TEXTOS*/
+
+.papiro {
+    width: 300px;
+    border-radius: 50px;
+}
+
+.papirocentro {
+    display: flex;
+    justify-content: center;
+}
+
+.divdefinicion {
+    background-color: #a093e0;
+}
+
+.contenidocomprension {
+    padding: 20px;
+    text-align: justify;
+}
+
+.imgcomprension {
+    width: 40px;
+}
+
+.h2comprension {
+    background-color: #0a0a0c;
+    border-radius: 30px;
+    color: white;
+}
+
+.h3comprension {
+    color: #7767ca;
+    background-color: #303b46;
+    border-radius: 40px;
+}
+
+.h3comprension2 {
+    background-color: #a093e0;
+    border-style: dotted;
+}
+
+.h4comprension {
+    color: rgb(62, 55, 128);
+}
+
+.pagproceso {
+    text-align: center;
+}
+
+/*FIN COMPRENSIÓN DE TEXTOS*/
+
+/*ORATORIA*/
+.oratoria img {
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.oratorialink {
+    margin-left: 60px;
+    text-decoration: none;
+    background-color: #9b89c0;
+    color: black;
+    border-radius: 9px;
+}
+
+.bodyoratoria {
+    background-color: #9d94ca;
+}
+
+.amenu {
+    background-color: #0a0a0c;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navmenu :hover {
+    background-color: #8d6dc4;
+    color: black;
+}
+
+.carrusel2 {
+    text-align: center;
+}
+
+/*FIN ORATORIA*/
+
+/*REDACCIÓN DE TEXTOS*/
+
+.redaccion img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.padding-border {
+    padding: 30px;
+    margin: 10px
+}
+
+#position {
+    padding: 30px 100px 10px 100px;
+
+}
+
+.mainredaccion {
+    text-align: justify;
+}
+
+.redaccionlink {
+    margin-left: 30px;
+    text-decoration: none;
+    background-color: #9b89c0;
+    color: black;
+    border-radius: 9px;
+}
+
+.carrusel2 {
+    text-align: center;
+}
+
+/*FIN REDACCIÓN DE TEXTOS*/
+
+/*PROGRMACIÓN BÁSICA Y COMPUTACIÓN*/
+.contenido {
+    background-color: #e3eef8;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.bye {
+    text-align: center;
+}
+
+.bye-img {
+    height: 200px;
+    width: 200px;
+}
+
+.uff {
+    height: 200px;
+}
+
+.uff_div {
+    text-align: center;
+}
+
+.hay_tabla {
+    text-align: center;
+}
+
+.hayTabla {
+    height: 200px;
+    width: 200px;
+}
+
+.abril {
+    text-align: center;
+    background-color: #262e36;
+    color: white;
+}
+
+.abril-img {
+    width: 25%;
+    padding-top: 3%;
+}
+
+/* sidebar */
+.sidebar-fondo {
+    background-color: #aba3d6;
+    border-radius: 8px;
+}
+
+.sidebar-titulo {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sticky-top {
+    text-decoration: none;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* sidebar */
+
+/*FIN PROGRAMACIÓN Y COMPUTACIÓN BÁSICA*/
+
+/*INGRESAR*/
+.background-ingresar {
+    background-color: aliceblue;
+}
+
+.btn2 {
+    background-color: #e3eef8;
+    width: 40%;
+}
+
+.btn-home {
+    width: 2%;
+}
+
+.link-regresar {
+    padding-left: 3%;
+}
+
+.h1ingresar {
+    font-size: large;
+}
+
+.image-home {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.divfondo2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.divlogoP {
+    display: flex;
+    justify-content: center;
+}
+
+.logoP {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.ingresarform {
+    width: 250px;
+    height: 400px;
+    background-color: #7767ca;
+    background-blend-mode: color;
+    border-radius: 15px;
+}
+
+.fieldsetingresar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-style: none;
+    width: 100px;
+    border-radius: 9px;
+
+}
+
+.botoningresar {
+    border-radius: 9px;
+    border-style: hidden;
+    background-color: #1f1530;
+    color: antiquewhite;
+    cursor: pointer;
+    text-align: center;
+}
+
+.divingresar {
+    display: flex;
+    justify-content: center;
+}
+
+.divlinkregresar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.linkregresar {
+    color: #1f1530;
+    background-color: #e3eef8;
+    border-radius: 8px;
+}
+
+.footeringresar {
+    background-color: #9d94ca;
+    background-image: none;
+}
+
+.pt-1 {
+    margin: 20px;
+}
+
+/*PREGUNTAS FRECUENTES*/
+.preguntas {
+    text-align: center;
+}
+
+.fotopreg {
+    border-radius: 50px;
+}
+
+.divpreguntas {
+    padding: 20px;
+    text-align: justify;
+}
+
+/*QUIENES SOMOS*/
+.destello {
+    text-align: center;
+}
+
+.divquienesomos {
+    padding: 20px;
+    text-align: justify;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #9d94ca;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.h4footer,
+.h5footer {
+    color: white;
+}
+
+.divlogofooter {
+    display: flex;
+    justify-content: center;
+}
+
+.logofooter {
+    width: 90px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.imagen {
+    height: 100px;
+    width: 100px;
+}
+
+.footerimagenes {
+    height: 30px;
+    width: 30px;
+    margin: 7px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+
+.divfooterimg {
+    display: flex;
+    background-size: contain;
+}
+
+/*Modo claro/oscuro */
+.switch {
+    background: #343d5b;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    transition: 1s;
+}
+
+span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+    transition: 1s;
+}
+
+.switch ::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #f1f1f1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+    transition: 1s;
+}
+
+.switch.active {
+    background: orange;
+    color: black;
+    transition: 1s;
+}
+
+.switch.active ::after {
+    content: "";
+    display: block;
+    right: 0;
+    left: unset;
+    transition: 1s;
+}
+
+body.dark {
+    background: #0a0a0c;
+    transition: 1s;
+}
+
+body.dark h1 {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark h2 {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark h3 {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .h1principal {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .h3principal {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .h4principal {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark ul {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark li {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .pdark {
+    color: white;
+    transition: 1s;
+}
+
+body.dark .pdark2 {
+    color: black;
+    transition: 1s;
+}
+
+body.dark main {
+    background: #1f1f2b;
+    transition: 1s;
+}
+
+body.dark .logoingresar {
+    background-color: #988eca;
+    border-radius: 50px;
+    border-style: none;
+    transition: 1s;
+}
+
+body.dark .image-home {
+    background-color: rgb(206, 188, 235);
+    border-radius: 1000px;
+    transition: 1s;
+}
+
+body.dark .formregistro {
+    background-color: #111116;
+    transition: 1s;
+}
+
+body.dark input {
+    background-color: #9b89c0;
+    color: black;
+    transition: 1s;
+}
+
+body.dark input text {
+    color: #0a0a0c;
+    transition: 1s;
+}
+
+body.dark ::placeholder {
+    color: #111116;
+    transition: 1s;
+}
+
+body.dark .btnEnviar {
+    background: #262e36;
+    color: white;
+    transition: 1s;
+}
+
+body.dark .formLink {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .linkdark {
+    color: #9871dd;
+    transition: 1s;
+
+}
+
+body.dark .nombreusuario {
+    background-color: #47277e;
+    transition: 1s;
+}
+
+body.dark .nombreusuario li {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .registromotiv {
+    background-color: #47277e;
+    transition: 1s;
+
+}
+
+body.dark .calendario2 tr {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .calendario2 th {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .aicono {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .imggorro {
+    background: #aba3d6;
+    border-radius: 1000px;
+    transition: 1s;
+}
+
+body.dark .contenido {
+    background-color: #1f1530;
+    transition: 1s;
+}
+
+body.dark .listaredaccion ul {
+    color: black;
+    transition: 1s;
+}
+
+
+body.dark .listaredaccion li {
+    color: black;
+    transition: 1s;
+}
+
+body.dark .divpreguntas ul {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .divpreguntas li {
+    color: #7767ca;
+    transition: 1s;
+}
+
+/*FIN MODO CLARO/OSCURO*/
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width:930px) {
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .botonhamburguesa {
+        background-color: #cfc7f0;
+        width: 60px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 10px;
+    }
+
+    .diviconoP {
+        display: flex;
+        justify-content: center;
+        margin-right: 50px;
+    }
+
+    .logoingresar {
+        width: 30px;
+        padding: 5px;
+    }
+
+    .s004 form .inner-form .input-field {
+        width: 300px;
+        position: relative;
+    }
+
+    .s004 form .inner-form .input-field .btn-search {
+        width: 40px;
+
+    }
+
+    .gato {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gatito {
+        width: 200px;
+    }
+
+    .image-home{
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .nombreusuario {
+        width: 200px;
+    }
+
+    .registromotiv {
+        width: 300px;
+        font-size: small;
+    }
+
+    .otromotiv {
+        width: 100px;
+    }
+
+    .botonmotiv {
+        font-size: small;
+    }
+
+    .icono {
+        width: 150px;
+    }
+
+    .calendario2 {
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+    }
+
+    .bye {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bye-imagen {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+    }
+
+    .carrusel {
+        width: 200px;
+        height: 200px;
+    }
+
+    .carrusel2 {
+        text-align: center;
+    }
+
+    footer {
+        background-image: url(./assets/neonresponsive.jpg);
+    }
+
+    .logofooter {
+        width: 50px;
+    }
+
+    .h4footer,
+    .h5footer {
+        font-size: small;
+    }
+}
+
+@media screen and (min-width:951px) {
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .nav-link {
+        width: 120%;
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) {
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .sticky-top {
+        height: 10%;
+        padding-right: 8%;
+        padding-left: 5%;
+        padding-top: 45%;
+    }
+
+    .sidebar-fondo {
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width:465px) {
+.row {
+    -bs-gutter-x: 0;}
+
+
+.iconocentro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+}

@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f5652ac366.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="./archivo.css">
+        <title> Computación </title>
+    
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+    
+                <header>
+                    <div class="row">
+                        <div class="col-md-12 col-xs-1">
+                            <div class="s004">
+                                <form>
+                                    <fieldset>
+                                        <div class="inner-form">
+                                            <div class="input-field">
+                                                <input class="form-control" id="choices-text-preset-values" type="text"
+                                                    placeholder="¿Qué estás buscando?" />
+                                                <button class="btn-search" type="button">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24">
+                                                        <path
+                                                            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                                        </path>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--fin barra de busqueda-->
+                    <div class="diviconoP">
+                        <a title="icono P" href="./index.html"> <img class="iconoP" src="./assets/IconoP.png" alt="icono P">
+                        </a>
+                    </div>
+    
+                    <!--comienzo menu-->
+                    <div class="menu">
+                        <div class="row">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <div class="container-fluid">
+                                    <div class="d-flex flex-grow-1">
+                                        <span class="d-lg-none d-block"></span>
+                                        <div class="text-right">
+                                            <div class="botonhamburguesa">
+                                                <button class="navbar-toggler boton-desplegable" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#miNavbarPROCC">
+                                                    <span class="navbar-toggler-icon"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="collapse navbar-collapse flex-grow-1 text-right" id="miNavbarPROCC">
+                                        <div class="menubarra">
+                                            <ul class="navbar-nav ms-auto flex-nowrap">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="index.html"> Página principal </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="areapersonal.html"> Área personal </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="misdatos.html"> Mis Datos </a>
+                                                </li>
+                                                <li class="nav-item dropdown navbar-light">
+                                                    <a class="nav-link dropdown-toggle" href="cursos.html" id="submenu"
+                                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Cursos </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="submenu">
+                                                        <li><a class="dropdown-item" href="oratoria.html">Oratoria</a></li>
+                                                        <li><a class="dropdown-item" href="redaccion.html">Redacción</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                href="forocomprension.html">Comprensión</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="computacion.html">Computación</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="programacion.html">Programación
+                                                                Básica</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="quienessomos.html"> ¿Quiénes somos? </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="preguntasfrecuentes.html"> Preguntas
+                                                        frecuentes </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--fin menu-->
+    
+                </header>
+    
+                <main>
+                    <div class="divswitch">
+                        <button class="switch" id="switch" onclick="sound.play()">
+                            <span> <i class="fas fa-sun"></i> </span>
+                            <span> <i class="fas fa-moon"></i></span>
+                        </button>
+                        
+                <!--inicio imagen encabezado-->
+                <img src="./assets/encabezado.png">
+                <!--fin imagen encabezado-->
+    
+                <!--comienzo contenido-->
+                <div class="col-xs-12 col-sm-12 col-md-8 order-sm-2">
+                    <div class="contenido">
+                        <h1 class="title text-center bg-light p-3">Programación</h1>
+                        <p>
+                            Bien ¿Tomaron un poco de aire? Si creen que lo que vimos anteriormente fue mucho, ni se imaginan
+                            lo que
+                            veremos en esta ¿Y? ¿empezamos? ¡Vamos!
+                            Cómo ya dijimos en la sección anterior, <b> La programación se define como el proceso de crear,
+                                probar,
+                                depurar, compilar y
+                                mantener un programa de computadora </b>, todo ello <b> mediante sentencias lógicas escritas
+                                en un
+                                lenguaje humano que después será traducido a un lenguaje que la computadora pueda procesar
+                            </b> ¿No
+                            leíste la sección anterior? ¡No te preocupes! Haz quick <a href="computacion.html"> aquí </a>
+                        </p>
+    
+                        <h2 id="progBasica">
+                            Programación Básica </h2>
+    
+                        <p>
+                            Si querés aprender programación de 0 y no sabes por dónde empezar, estas en la pagina correcta.
+                            Los factores
+                            elementales que tenés que tener en cuenta es estar dispuesto a practicar, practicar, practicar
+                            y… si, seguir
+                            practicando. Estar dispuesto a aceptar errores y volver mil veces a lo mismo, releer y bueno si
+                            además
+                            posees una cierta afinidad con la matemática e inglés, te vendría genial ya que el estudio de la
+                            programación está conectado directamente al área de las ciencias exactas; y las matemáticas, con
+                            sus reglas,
+                            estarán presente en diversos momentos. Por otro lado, el inglés, hoy fundamental en cualquier
+                            profesión,
+                            también será importante, ya que al programar encontrarás una mayor variedad de cursos y
+                            materiales en este
+                            idioma. Y, además, la mayoría de los lenguajes de programación utilizan el inglés como base.
+                            Esto quiere decir que si no soy bueno/a en matemática o en ingles voy a ser un mal programador?
+                            Claro que
+                            no. Simplemente te puede facilitar un poco las cosas, pero vamos, que si este no es tu caso
+                            igual siempre se
+                            puede.
+    
+                        <h3 id="primerosPasos"> Primeros pasos en la lógica de programación </h3>
+    
+                        Lo que te puede generar más confusión al inicio de este camino es escoger el lenguaje de
+                        programación indicado.
+                        Sin embargo, dejame decirte que el lenguaje en sí no importa mucho al inicio, puesto que la lógica
+                        es la misma
+                        para todos, por esta razón no te preocupes, comenzar aprendiendo la lógica de programación es el
+                        mejor camino.
+                        <b>La lógica es la base de todo el conocimiento en programación</b>, ya que es posible aprender a
+                        escribir un
+                        código para que la computadora interprete correctamente. Es decir que aprendes a comunicarte con la
+                        máquina a
+                        partir de un lenguaje.
+    
+                        <h3 id="defLog"> ¿Qué es exactamente la lógica de programación?</h3>
+    
+                        Lógica es la <b>técnica utilizada para desarrollar instrucciones en una secuencia para lograr
+                            determinado
+                            objetivo</b>.
+                        Es la organización y planificación de instrucciones en un algoritmo, con el objetivo de tornar
+                        visible la
+                        implementación de un programa o software.
+                        La lógica de la programación es la organización coherente de las instrucciones del programa para que
+                        su objetivo
+                        sea alcanzado.
+    
+    
+                        <em><b> Desafío del programador: </b></em>
+    
+    
+                        El gran desafío del programador es entonces montar la estructura del programa para que este sea
+                        ejecutado por la
+                        computadora. Y es necesario partir del principio de que la computadora no piensa de la misma forma
+                        que el ser
+                        humano, y no es inteligente para saber qué es lo que tiene que hacer, ni comprender mensajes
+                        subjetivos.
+                        Por eso organizar la información de forma clara y en el orden adecuado es primordial para que la
+                        acción sea
+                        ejecutada correctamente.
+    
+                        </p>
+    
+                        <h3 id="defAlg"> ¿Qué es un algoritmo en lógica de programación? </h3>
+    
+                        <p>
+    
+                            El algoritmo es la propia secuencia de instrucciones para la ejecución de una tarea. De una
+                            forma más
+                            simple, el algoritmo es una receta o ruta que indica todos los procedimientos necesarios para
+                            realizar algo
+                            o resolver un problema.
+                            La información en un algoritmo no puede ser redundante o subjetiva. Tiene que ser clara y
+                            detallada para que
+                            la computadora interprete correctamente. Ejemplificando mejor vamos a hacer un algoritmo para
+                            freír papas de
+                            una forma bien simple y didáctica. ¡Vamos!
+                            <em><b> Algoritmo “Papa-frita” </b></em>
+                            <br>
+                            Inicio:
+                        <ol>
+                            <b>
+                                <li> Tomar las papas </li>
+                                <li> Pelar las papas </li>
+                                <li> Cortar las papas en tiras </li>
+                                <li> Tomar el sartén y colocarla sobre la estufa </li>
+                                <li> Encender el fuego de la estufa </li>
+                                <li> Coloca el sartén con aceite para calentar </li>
+                                <li> Aguardar 10 minutos hasta que las papas estén fritas </li>
+                                <li> Retirar las papas y servir </li>
+                            </b>
+                        </ol>
+                        Fin
+                        <hr>
+                        Con este paso a paso cualquier persona logra hacer papas fritas, ¿no lo crees?.
+                        ¡Este es un algoritmo! Es importante que estés pendiente de tener una secuencia correcta y bien
+                        definida de las
+                        acciones, porque como en el ejemplo, no podríamos cortar las papas después de freírlas.
+                        Hay diversas formas de representar un algoritmo, como formas gráficas, flujogramas, formas textuales
+                        o en
+                        pseudocódigo. La diferencia entre el algoritmo que creamos y el que es utilizado en la programación,
+                        es el
+                        lenguaje para que la computadora entienda.
+                        Es importante resaltar que el flujo puede seguir diferentes caminos y convertirse en algo más
+                        complejo con cada
+                        información que se agrega. Por ejemplo, podríamos sumarle la condición de que si el aceite estuviera
+                        frío es
+                        necesario esperar, y si no (si estuviera caliente) podría colocar las papas para freír. Pero de esta
+                        forma
+                        entramos en otros factores y variables que pueden ser asunto para otros artículos.
+                        Tengamos en cuenta también que para comprender instrucciones subjetivas, es importante tener algunas
+                        reglas o
+                        indicaciones para entender la tarea “freír papas” y ejecutarla correctamente. De igual manera en el
+                        caso de las
+                        computadoras; necesitamos saber algunos conceptos para mejorar nuestros algoritmos, facilitando la
+                        comprensión y
+                        ejecución de los mismos.
+    
+                        </p>
+    
+                        <h3 id="defVarYCons"> Variables y constantes </h3>
+    
+                        <p>
+                            Seguramente ya has escuchado hablar sobre variables y constantes cuando se trata de
+                            programación, ¿no es
+                            verdad? Son valores que componen cálculos o condiciones y están presentes en todas las partes
+                            del programa.
+                            Una variable es un espacio para almacenar un tipo de dato que puede ser modificado cuando sea
+                            necesario.
+                            En cambio la constante posee un dato definido al inicio del programa y no podrá ser alterado.
+                            Utilizando el ejemplo de la papa frita, podemos decir que el aceite es una variable, ya que
+                            puede estar
+                            caliente o frío. Y el tiempo que demoran las papas fritas en estar listas es una constante; pues
+                            siempre
+                            serán 10 minutos, por ejemplo.
+    
+                        </p>
+    
+                        <h3 id="progRutina"> Lógica de programación en la rutina diaria </h3>
+    
+                        <p> Creamos este ejemplo para mostrar la importancia de escribir la secuencia correcta de las
+                            acciones, y para
+                            entrenar el razonamiento. Eso es algo que ya utilizas en la vida cotidiana sin percibirlo
+                            Detente y pensa un momento en tu rutina al despertar. Si lo escribes en un papel verás que es
+                            más compleja
+                            de lo que parece, pero la ejecución es automática. Imagina entonces comenzar a pensar en lo que
+                            podría ser
+                            variable y constante en esa rutina. Este es un excelente ejercicio para entrenar la lógica de
+                            programación y
+                            el uso de algoritmos.
+                            Ahora sólo tienes que entrar de lleno en el mundo de la programación e ir descubriendo los otros
+                            elementos
+                            importantes para programar.
+                        </p>
+    
+                        <h3 id="Cursos"> Dónde aprender y entrenar lógica de programación </h3>
+    
+                        <p> Gracias a los avances tecnológicos de hoy en día, estudiar programación o cualquier otro tipo de
+                            disciplina,
+                            es posible a través de internet. Existe una gran cantidad de cursos, videos y comunidades
+                            digitales donde
+                            puedes aprender a programar y conocer las herramientas necesarias que te ayudarán en esta tarea.
+                            Uno de los cursos más famosos para aprender programación desde cero, es el curso gratuito de
+                            desarrollo de
+                            juegos y animaciones del MIT (Massachusetts Institute of Technology), llamado Scratch. Si ya
+                            hiciste clic en
+                            el link, seguramente habrás visto parece un sitio web para niños, y en verdad lo es, y esta es
+                            una de las
+                            razones:
+                            Recientemente conversamos con el equipo de nuestros desarrolladores para contar un poco más
+                            sobre la vida
+                            profesional de un dev en HostGator. Muchos de ellos comentaron que su primer paso para entrar al
+                            mundo de la
+                            programación, fue su pasión desde niños por los videojuegos y el sueño de algún día conseguir
+                            programar uno
+                            de estos.
+                            Así que ya sabes, aprender programación y jugar puede ser una combinación exitosa.
+                        </p>
+    
+                        <p>
+                            ¡Y llegamos al fin! ¡Yaay! Cualquier cosa, recuerden contactarnos.
+    
+                            Bien, mi trabajo aquí ha terminado...
+                        <div class="bye">
+                            <img class="bye-imagen" src="assets/bye.gif" alt="bye">
+                        </div>
+    
+                        </p>
+                        <div class="abril">
+                            <img class="abril-img" src="./assets/Abril.png" alt="foto Abril">
+                            <p>
+                                Redactora: Abril.I.Barros
+                            </p>
+                        </div>
+                        </main>
+    
+                    </div>
+    
+                    <button class="btnvolvercursos">
+                        <a href="./cursos.html"> Ir a la sección de cursos</a>
+                    </button>
+    
+                    <!--comienzo contenido-->
+                    <div class="col-xs-12 col-sm-12 col-md-8 order-sm-2">
+                        <div class="contenido">
+                            <h1 id="programacion" class="title text-center bg-light p-3">Programación</h1>
+                            <p class="pdark">
+                                Bien ¿Tomaron un poco de aire? Si creen que lo que vimos anteriormente fue mucho, ni se
+                                imaginan
+                                lo que
+                                veremos en esta ¿Y? ¿empezamos? ¡Vamos!
+                                Cómo ya dijimos en la sección anterior, <b> La programación se define como el proceso de
+                                    crear,
+                                    probar,
+                                    depurar, compilar y
+                                    mantener un programa de computadora </b>, todo ello <b> mediante sentencias lógicas
+                                    escritas
+                                    en un
+                                    lenguaje humano que después será traducido a un lenguaje que la computadora pueda
+                                    procesar
+                                </b> ¿No
+                                leíste la sección anterior? ¡No te preocupes! Haz quick <a href="computacion.html"> aquí
+                                </a>
+                            </p>
+    
+                            <h2 id="progBasica">
+                                Programación Básica </h2>
+    
+                            <p class="pdark">
+                                Si querés aprender programación de 0 y no sabes por dónde empezar, estas en la pagina
+                                correcta.
+                                Los factores
+                                elementales que tenés que tener en cuenta es estar dispuesto a practicar, practicar,
+                                practicar
+                                y… si, seguir
+                                practicando. Estar dispuesto a aceptar errores y volver mil veces a lo mismo, releer y bueno
+                                si
+                                además
+                                posees una cierta afinidad con la matemática e inglés, te vendría genial ya que el estudio
+                                de la
+                                programación está conectado directamente al área de las ciencias exactas; y las matemáticas,
+                                con
+                                sus reglas,
+                                estarán presente en diversos momentos. Por otro lado, el inglés, hoy fundamental en
+                                cualquier
+                                profesión,
+                                también será importante, ya que al programar encontrarás una mayor variedad de cursos y
+                                materiales en este
+                                idioma. Y, además, la mayoría de los lenguajes de programación utilizan el inglés como base.
+                                Esto quiere decir que si no soy bueno/a en matemática o en ingles voy a ser un mal
+                                programador?
+                                Claro que
+                                no. Simplemente te puede facilitar un poco las cosas, pero vamos, que si este no es tu caso
+                                igual siempre se
+                                puede.
+    
+                            <h3 id="primerosPasos"> Primeros pasos en la lógica de programación </h3>
+    
+                            Lo que te puede generar más confusión al inicio de este camino es escoger el lenguaje de
+                            programación indicado.
+                            Sin embargo, dejame decirte que el lenguaje en sí no importa mucho al inicio, puesto que la
+                            lógica
+                            es la misma
+                            para todos, por esta razón no te preocupes, comenzar aprendiendo la lógica de programación es el
+                            mejor camino.
+                            <b>La lógica es la base de todo el conocimiento en programación</b>, ya que es posible aprender
+                            a
+                            escribir un
+                            código para que la computadora interprete correctamente. Es decir que aprendes a comunicarte con
+                            la
+                            máquina a
+                            partir de un lenguaje.
+    
+                            <h3 id="defLog"> ¿Qué es exactamente la lógica de programación?</h3>
+    
+                            Lógica es la <b>técnica utilizada para desarrollar instrucciones en una secuencia para lograr
+                                determinado
+                                objetivo</b>.
+                            Es la organización y planificación de instrucciones en un algoritmo, con el objetivo de tornar
+                            visible la
+                            implementación de un programa o software.
+                            La lógica de la programación es la organización coherente de las instrucciones del programa para
+                            que
+                            su objetivo
+                            sea alcanzado.
+    
+    
+                            <em><b> Desafío del programador: </b></em>
+    
+    
+                            El gran desafío del programador es entonces montar la estructura del programa para que este sea
+                            ejecutado por la
+                            computadora. Y es necesario partir del principio de que la computadora no piensa de la misma
+                            forma
+                            que el ser
+                            humano, y no es inteligente para saber qué es lo que tiene que hacer, ni comprender mensajes
+                            subjetivos.
+                            Por eso organizar la información de forma clara y en el orden adecuado es primordial para que la
+                            acción sea
+                            ejecutada correctamente.
+    
+                            </p>
+    
+                            <h3 id="defAlg"> ¿Qué es un algoritmo en lógica de programación? </h3>
+    
+                            <p class="pdark">
+    
+                                El algoritmo es la propia secuencia de instrucciones para la ejecución de una tarea. De una
+                                forma más
+                                simple, el algoritmo es una receta o ruta que indica todos los procedimientos necesarios
+                                para
+                                realizar algo
+                                o resolver un problema.
+                                La información en un algoritmo no puede ser redundante o subjetiva. Tiene que ser clara y
+                                detallada para que
+                                la computadora interprete correctamente. Ejemplificando mejor vamos a hacer un algoritmo
+                                para
+                                freír papas de
+                                una forma bien simple y didáctica. ¡Vamos!
+                                <em><b> Algoritmo “Papa-frita” </b></em>
+                                <br>
+                                Inicio:
+                            <ol>
+                                <b>
+                                    <li> Tomar las papas </li>
+                                    <li> Pelar las papas </li>
+                                    <li> Cortar las papas en tiras </li>
+                                    <li> Tomar el sartén y colocarla sobre la estufa </li>
+                                    <li> Encender el fuego de la estufa </li>
+                                    <li> Coloca el sartén con aceite para calentar </li>
+                                    <li> Aguardar 10 minutos hasta que las papas estén fritas </li>
+                                    <li> Retirar las papas y servir </li>
+                                </b>
+                            </ol>
+                            Fin
+                            <hr>
+                            Con este paso a paso cualquier persona logra hacer papas fritas, ¿no lo crees?.
+                            ¡Este es un algoritmo! Es importante que estés pendiente de tener una secuencia correcta y bien
+                            definida de las
+                            acciones, porque como en el ejemplo, no podríamos cortar las papas después de freírlas.
+                            Hay diversas formas de representar un algoritmo, como formas gráficas, flujogramas, formas
+                            textuales
+                            o en
+                            pseudocódigo. La diferencia entre el algoritmo que creamos y el que es utilizado en la
+                            programación,
+                            es el
+                            lenguaje para que la computadora entienda.
+                            Es importante resaltar que el flujo puede seguir diferentes caminos y convertirse en algo más
+                            complejo con cada
+                            información que se agrega. Por ejemplo, podríamos sumarle la condición de que si el aceite
+                            estuviera
+                            frío es
+                            necesario esperar, y si no (si estuviera caliente) podría colocar las papas para freír. Pero de
+                            esta
+                            forma
+                            entramos en otros factores y variables que pueden ser asunto para otros artículos.
+                            Tengamos en cuenta también que para comprender instrucciones subjetivas, es importante tener
+                            algunas
+                            reglas o
+                            indicaciones para entender la tarea “freír papas” y ejecutarla correctamente. De igual manera en
+                            el
+                            caso de las
+                            computadoras; necesitamos saber algunos conceptos para mejorar nuestros algoritmos, facilitando
+                            la
+                            comprensión y
+                            ejecución de los mismos.
+    
+                            </p>
+    
+                            <h3 id="defVarYCons"> Variables y constantes </h3>
+    
+                            <p class="pdark">
+                                Seguramente ya has escuchado hablar sobre variables y constantes cuando se trata de
+                                programación, ¿no es
+                                verdad? Son valores que componen cálculos o condiciones y están presentes en todas las
+                                partes
+                                del programa.
+                                Una variable es un espacio para almacenar un tipo de dato que puede ser modificado cuando
+                                sea
+                                necesario.
+                                En cambio la constante posee un dato definido al inicio del programa y no podrá ser
+                                alterado.
+                                Utilizando el ejemplo de la papa frita, podemos decir que el aceite es una variable, ya que
+                                puede estar
+                                caliente o frío. Y el tiempo que demoran las papas fritas en estar listas es una constante;
+                                pues
+                                siempre
+                                serán 10 minutos, por ejemplo.
+    
+                            </p>
+    
+                            <h3 id="progRutina"> Lógica de programación en la rutina diaria </h3>
+    
+                            <p class="pdark"> Creamos este ejemplo para mostrar la importancia de escribir la secuencia
+                                correcta de las
+                                acciones, y para
+                                entrenar el razonamiento. Eso es algo que ya utilizas en la vida cotidiana sin percibirlo
+                                Detente y pensa un momento en tu rutina al despertar. Si lo escribes en un papel verás que
+                                es
+                                más compleja
+                                de lo que parece, pero la ejecución es automática. Imagina entonces comenzar a pensar en lo
+                                que
+                                podría ser
+                                variable y constante en esa rutina. Este es un excelente ejercicio para entrenar la lógica
+                                de
+                                programación y
+                                el uso de algoritmos.
+                                Ahora sólo tienes que entrar de lleno en el mundo de la programación e ir descubriendo los
+                                otros
+                                elementos
+                                importantes para programar.
+                            </p>
+    
+                            <h3 id="Cursos"> Dónde aprender y entrenar lógica de programación </h3>
+    
+                            <p class="pdark"> Gracias a los avances tecnológicos de hoy en día, estudiar programación o
+                                cualquier otro tipo de
+                                disciplina,
+                                es posible a través de internet. Existe una gran cantidad de cursos, videos y comunidades
+                                digitales donde
+                                puedes aprender a programar y conocer las herramientas necesarias que te ayudarán en esta
+                                tarea.
+                                Uno de los cursos más famosos para aprender programación desde cero, es el curso gratuito de
+                                desarrollo de
+                                juegos y animaciones del MIT (Massachusetts Institute of Technology), llamado Scratch. Si ya
+                                hiciste clic en
+                                el link, seguramente habrás visto parece un sitio web para niños, y en verdad lo es, y esta
+                                es
+                                una de las
+                                razones:
+                                Recientemente conversamos con el equipo de nuestros desarrolladores para contar un poco más
+                                sobre la vida
+                                profesional de un dev en HostGator. Muchos de ellos comentaron que su primer paso para
+                                entrar al
+                                mundo de la
+                                programación, fue su pasión desde niños por los videojuegos y el sueño de algún día
+                                conseguir
+                                programar uno
+                                de estos.
+                                Así que ya sabes, aprender programación y jugar puede ser una combinación exitosa.
+                            </p>
+    
+                            <p class="pdark">
+                                ¡Y llegamos al fin! ¡Yaay! Cualquier cosa, recuerden contactarnos.
+    
+                                Bien, mi trabajo aquí ha terminado...
+                            <div class="bye">
+                                <img class="bye-imagen" src="assets/bye.gif" alt="bye">
+                            </div>
+    
+                            </p class="pdark">
+                            <div class="abril">
+                                <img class="abril-img" src="./assets/Abril.png">
+                                <p>
+                                    Redactora: Abril.I.Barros
+                                </p>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!--fin contenido-->
+    
+                    <!--comienzo sidebar-->
+                    <div class="d-col-sm-4 col-md-4 col-lg-4 order-sm-1">
+                        <div class="sticky-top">
+                            <div class="sidebar-fondo">
+                                <h3 class="sidebar-titulo"> En esta página </h3>
+                                <div class="indice">
+    
+                                    <table>
+                                        <tr>
+                                            <div>
+                                                <td>
+                                                    <ol>
+                                                        <li>
+                                                            <a href="#progBasica">
+                                                                Programación Básica
+                                                            </a>
+                                                            <details>
+                                                                <summary>Ver más...</summary>
+                                                                <ol type="a">
+                                                                    <li>
+                                                                        <a href="#primerosPasos">
+                                                                            Primeros pasos en la lógica de programación
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#defLog">
+                                                                            ¿Qué es exactamente la lógica de programación?
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#defAlg">
+                                                                            ¿Qué es un algoritmo en lógica de programación?
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#defVarYCons">
+                                                                            Variables y constantes
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#progRutina">
+                                                                            Lógica de programación en la rutina diaria
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#Cursos">
+                                                                            Dónde aprender y entrenar lógica de programación
+                                                                        </a>
+                                                                    </li>
+                                                                </ol>
+                                                        </li>
+                                                    </ol>
+                                                    </details>
+                                                    </li>
+                                                    </ol>
+                                                </td>
+                                        </tr>
+                                    </table>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!--fin sidebar-->
+        </main>
+        <footer>
+            <div class="divlogofooter">
+                <a title="logo procc" href="./index.html"> <img class="logofooter" src="./assets/IconoP.png"
+                        alt="logo procc"> </a>
+            </div>
+            <h4 class="h4footer"> Para dudas o consultas, encontranos en </h4>
+    
+            <div class="divfooterimg">
+                <a title="facebook" href="www.facebook.com"><img class="footerimagenes" src="assets/facebook.png"
+                        alt="facebook"></a>
+    
+                <a title="instagram" href="instagram.com"> <img class="footerimagenes" src="./assets/instagram.png"
+                        alt="instagram"> </a>
+    
+                <a title="whatsapp" href="whatsapp.com"> <img class="footerimagenes" src="./assets/whatsapp.png"
+                        alt="whatsapp"> </a>
+    
+                <a title="email" href="outlook.com"> <img class="footerimagenes" src="./assets/sobre.png" alt="email">
+                </a>
+    
+            </div>
+            <h5 class="h5footer"> 2022 - Todos los derechos reservados</h5>
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>
