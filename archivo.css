@@ -356,18 +356,30 @@ input {
     background-image: url(./assets/fondoliso.jpg);
 }
 
-.usuario {
-    margin-left: 60px;
+.h1area {
+    background-color: #0a0a0c;
+    color: white;
+    border-radius: 1000px;
 }
 
+.areapersonal1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    outline: 0;
+}
+
+
 .editarusuario {
-    margin-left: 100px;
+    margin-left: 40px;
     text-decoration: none;
     color: gray;
 }
 
 .nombreusuario {
     width: 350px;
+    height: 120px;
     border-style: dashed;
     border-color: #1f1530;
     border-radius: 30px;
@@ -375,7 +387,6 @@ input {
     color: black;
     font-size: x-large;
     margin-top: 10px;
-    margin-left: 40px;
 }
 
 .nombreusuario h2 {
@@ -389,12 +400,18 @@ input {
 }
 
 .h3cursos {
-    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 1000px;
+    color: #7767ca;
 }
+
 
 .fieldsetemocion {
     border-style: none;
-
 }
 
 .registromotiv {
@@ -416,15 +433,38 @@ input {
     cursor: pointer;
 }
 
+.iconocentro {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icono {
+    width: 100px;
+    height: 200px;
+}
+
+.aicono_ {
+    display: flex;
+    justify-content: center;
+    background-color: #332b41;
+    border-radius: 1000px;
+    color: whitesmoke;
+}
+
+.aicono_:hover {
+    background-color: #ad8ee2;
+    color: black;
+}
+
 .calendario {
-    color: blueviolet;
+    color: rgb(108, 77, 180);
 }
 
 .calendario2 {
     display: flex;
-    margin: 40px;
-    margin-left: 200px;
     justify-content: center;
+    margin: 40px;
     font-size: x-large;
 }
 
@@ -453,21 +493,23 @@ input {
 
 
 .navcursos {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .gorroalumno {
     text-align: center;
 }
+
 .iconocurso {
     width: 300px;
     display: block;
-    margin: 20px;
+    margin: 40px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 .cursolink {
     display: flex;
     justify-content: center;
@@ -775,6 +817,12 @@ input {
 }
 
 /*PREGUNTAS FRECUENTES*/
+.h1preg {
+    background-color: #0a0a0c;
+    color: white;
+    border-radius: 1000px;
+}
+
 .preguntas {
     text-align: center;
 }
@@ -789,6 +837,12 @@ input {
 }
 
 /*QUIENES SOMOS*/
+.h1quienes {
+    background-color: #0a0a0c;
+    color: white;
+    border-radius: 1000px;
+}
+
 .destello {
     text-align: center;
 }
@@ -1036,6 +1090,11 @@ body.dark .aicono {
     transition: 1s;
 }
 
+body.dark .aicono_ {
+    color: whitesmoke;
+    transition: 1s;
+}
+
 body.dark .imggorro {
     background: #aba3d6;
     border-radius: 1000px;
@@ -1119,13 +1178,14 @@ body.dark .divpreguntas li {
         width: 200px;
     }
 
-    .image-home{
+    .image-home {
         text-align: center;
         margin-left: 30px;
     }
 
     .nombreusuario {
         width: 200px;
+        height: 200px;
     }
 
     .registromotiv {
@@ -1141,11 +1201,15 @@ body.dark .divpreguntas li {
         font-size: small;
     }
 
-    .icono {
-        width: 150px;
-    }
     .iconocurso {
         width: 150px;
+        margin: 20px;
+    }
+
+    .aicono_ {
+        background-color: #332b41;
+        border-radius: 1000px;
+        color: whitesmoke;
     }
 
     .cursolink {
@@ -1157,6 +1221,11 @@ body.dark .divpreguntas li {
         display: flex;
         justify-content: center;
         font-size: medium;
+    }
+
+    .iconocentro {
+        display: flex;
+        flex-direction: column;
     }
 
     .bye {
@@ -1222,13 +1291,14 @@ body.dark .divpreguntas li {
 }
 
 @media screen and (max-width:465px) {
-.row {
-    -bs-gutter-x: 0;}
+    .row {
+        -bs-gutter-x: 0;
+    }
 
 
-.iconocentro {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+    .iconocentro {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
