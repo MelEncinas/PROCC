@@ -453,75 +453,30 @@ input {
 
 
 .navcursos {
-    padding: 10px;
-    margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .gorroalumno {
     text-align: center;
 }
-
-.oratorialink {
-    text-decoration: none;
-    background-color: #9b89c0;
-    color: black;
-    border-radius: 9px;
-}
-
-
-.redaccionlink {
-    text-decoration: none;
-    background-color: #9b89c0;
-    color: black;
-    border-radius: 9px;
-}
-
-.comprensionlink {
-    text-decoration: none;
-    background-color: #9b89c0;
-    color: black;
-    border-radius: 9px;
-}
-
-.computacionlink {
-    text-decoration: none;
-    background-color: #9b89c0;
-    color: black;
-    border-radius: 9px;
-}
-
-
-
-.programacionlink {
-    text-decoration: none;
-    background-color: #9b89c0;
-    color: black;
-    border-radius: 9px;
-}
-
-.estrella1 {
-    width: 100px;
-}
-
-.estrella2 {
-    width: 100px;
-}
-
-.estrella3 {
-    width: 100px;
-}
-
-.estrella4 {
-    width: 100px;
-}
-
-.estrella5 {
-    width: 100px;
-}
-
 .iconocurso {
-    width: 200px;
+    width: 300px;
+    display: block;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
+.cursolink {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #7767ca;
+    border-radius: 1000px;
+}
+
+
 
 /*FIN SECCIÓN CURSOS*/
 
@@ -1188,6 +1143,14 @@ body.dark .divpreguntas li {
 
     .icono {
         width: 150px;
+    }
+    .iconocurso {
+        width: 150px;
+    }
+
+    .cursolink {
+        display: flex;
+        justify-content: center;
     }
 
     .calendario2 {
