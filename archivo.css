@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+/*PASAR*/
+html {
+    height: 100%;
+}
+
 /*ASPECTOS GENERALES*/
 .row {
     --bs-gutter-x: 0;
@@ -10,6 +15,7 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    min-height: 100%;
 }
 
 header {
@@ -649,18 +655,42 @@ input {
 
 /*FIN REDACCIÓN DE TEXTOS*/
 
-/*PROGRMACIÓN BÁSICA Y COMPUTACIÓN*/
-.contenido {
-    background-color: #e3eef8;
-    padding-left: 4%;
-    padding-right: 4%;
+/*--------------------------------------INICIO PROGRMACIÓN BÁSICA Y COMPUTACIÓN-----------------------------------------*/
+.pregFrecuentes {
+    padding-top: 5%;
+    padding-left: 10%;
 }
+
+.imp-ninios {
+    padding-left: 10%;
+}
+
+.mecanografia {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.sistemas-operativos {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.ofimatica {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.programacion {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+/*indice*/
 
 .bye {
     text-align: center;
 }
 
-.bye-img {
+.bye-imagen {
     height: 200px;
     width: 200px;
 }
@@ -686,33 +716,143 @@ input {
     text-align: center;
     background-color: #262e36;
     color: white;
+    padding-bottom: 1%;
 }
 
 .abril-img {
-    width: 25%;
+    width: 15%;
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-/* sidebar */
-.sidebar-fondo {
+.pensar-ninios {
+    text-align: center;
+}
+
+.pensar-ninios_img {
+    height: 300px;
+    width: 500px;
+}
+
+.btn-volver-cursos {
+    text-align: center;
+}
+/*----------------------------------------------------------------------------------------------------------------
+---------------------------------------------------inicio grid----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+  .grid-container > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*--------header & header-1---------*/
+.header {
+    grid-area: header;
+}
+
+.header-1 {
+    grid-area: header-1;
+    background-color: #c4bee0;
+}
+
+/*----------inicio sidebar-fondo----------*/
+.sidebar {
+    grid-area: sidebar-fondo;
     background-color: #aba3d6;
     border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .sidebar-titulo {
     text-align: center;
     font-weight: bold;
+    padding-top: 5%;
 }
 
-.sticky-top {
-    text-decoration: none;
-    justify-content: center;
-    font-weight: bold;
+.sidebar-md {
+    text-align: start;
+}
+/*----------fin sidebar-fondo----------*/
+
+/*----------inicio contenido----------*/
+.main {
+    grid-area: main;
+    background-color: rgb(204, 221, 236);
+}
+.contenido {
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align:start;
+}
+.comp-prog-titulo {
+    text-align: center;
+    background-color: white;
+}
+/*----------fin contenido----------*/
+
+/*----------inicio footer----------*/
+.footer {
+    grid-area: footer;
+    background-color: #8c96a0;
+}
+/*----------fin footer----------*/
+
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+        "header"         auto
+        "header-1"       auto
+        "sidebar-fondo"  auto
+        "main"           auto
+        "footer"         auto;
 }
 
-/* sidebar */
+@media (min-width: 600px) {
+    .grid-container {
+        /* grid-template-columns: 200px auto;
+        grid-template-rows: 100px 50px auto 100px;
+        grid-template-areas: 
+        "header  header"
+        "navbar  navbar"
+        "sidebar main"
+      "footer  footer"; */
 
-/*FIN PROGRAMACIÓN Y COMPUTACIÓN BÁSICA*/
+    grid-template:
+        "header         header"        auto
+        "header-1       header-1"      auto
+        "sidebar-fondo  sidebar-fondo" auto
+        "main           main"          auto
+        "footer         footer"        auto /
+        350px           auto;
+    }
+}
+
+@media (min-width: 900px) {
+    .grid-container {
+        grid-template:
+            "header         header    header"    auto
+            "header-1       header-1  header-1"  auto
+            "sidebar-fondo  main      main"      auto
+            "footer         footer    footer"    auto /
+            350px           auto      200px;
+        }
+    .sidebar-fondo {
+        position: sticky;
+        top: 0;
+        overflow:auto;
+        max-height: 100vh;
+    }
+}
+/*----------------------------------------------------------------------------------------------------------------
+---------------------------------------------------fin grid----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------FIN PROGRMACIÓN BÁSICA Y COMPUTACIÓN---------------------------------------*/
 
 /*INGRESAR*/
 .background-ingresar {
@@ -968,6 +1108,17 @@ body.dark h3 {
     transition: 1s;
 }
 
+/*PASAR*/
+body.dark h4 {
+    color: whitesmoke;
+    transition: 1s;
+}
+body.dark h5 {
+    color: whitesmoke;
+    transition: 1s;
+}
+/*fin*/
+
 body.dark .h1principal {
     color: whitesmoke;
     transition: 1s;
@@ -1125,6 +1276,79 @@ body.dark .divpreguntas ul {
 body.dark .divpreguntas li {
     color: #7767ca;
     transition: 1s;
+}
+
+/*PASAR*/
+body.dark .header-1 {
+    background-color: #47277e;
+}
+
+body.dark .sidebar {
+    background-color: #343d5b;
+    transition: 1s
+}
+
+body.dark .main {
+    background-color: #1f1530;
+    transition: 1s;
+}
+
+body.dark p {
+    color: whitesmoke;
+    transition: 1s;
+}
+
+body.dark .comp-prog-titulo {
+    background-color: #111116;
+    transition: 1s;
+}
+
+body.dark .pregFrecuentes {
+    color: whitesmoke;
+    transition: 1s
+}
+
+body.dark .pregFrecuentes a{
+    color: whitesmoke;
+    transition: 1s
+}
+
+body.dark .mecanografia a {
+    color: whitesmoke;
+    transition: 1s
+}
+
+body.dark .sistemas-operativos a {
+    color: whitesmoke;
+    transition: 1s
+}
+
+body.dark .ofimatica a {
+    color: whitesmoke;
+    transition: 1s
+}
+
+body.dark .programacion a {
+    color: whitesmoke;
+    transition: 1s
+}
+
+body.dark .progBasica a {
+    color: whitesmoke;
+    transition: 1s
+}
+
+body.dark .contenido a {
+    color: whitesmoke;
+    transition: 1s
+}
+
+body.dark .contenido a:hover{
+    color:#7767ca;
+}
+
+body.dark .sidebar a:hover{
+    color:#7767ca;
 }
 
 /*FIN MODO CLARO/OSCURO*/
