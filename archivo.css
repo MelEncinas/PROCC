@@ -1463,6 +1463,16 @@ body.dark .sidebar a:hover{
         text-align: center;
     }
 
+    .pensar-ninios {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pensar-ninios_imagen {
+        height: 50px;
+        width: 50px;
+    }
+
     .carrusel {
         width: 200px;
         height: 200px;
