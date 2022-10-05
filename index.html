@@ -164,18 +164,18 @@
                     <div class="formulario">
                         <h2> Formulario de Registro </h2>
     
-                        <form action="registrar.php" method="post" class="formregistro">
+                        <form action="registrar.php" method="post" class="formregistro" id="form">
                             <h2 class="formtitulo"> <img src="./assets/agregar-usuario.png" alt="Agregar usuario"
                                     width="40">
                                 Crea
                                 una cuenta </h2>
                             <div class="contenedor-inputs">
-                                <input type="text" name="Nombre" placeholder="Nombre" class="input-48" required>
-                                <input type="text" name="Apellidos" placeholder="Apellidos" class="input-48" required>
-                                <input type="email" name="Mail" placeholder="Mail" class="input-100" required>
-                                <input type="text" name="Usuario" placeholder="Usuario" class="input-48 required">
-                                <input type="password" name="Contraseña" placeholder="Contraseña" class="input-48" required>
-                                <input type="number" name="Teléfono" placeholder="Teléfono" class="input-100" required>
+                                <input type="text" name="Nombre" id="nombre" placeholder="Nombre" class="input-48" required>
+                                <input type="text" name="Apellidos" id="apellido" placeholder="Apellidos" class="input-48" required>
+                                <input type="email" name="Mail" id="email" placeholder="Mail" class="input-100" required>
+                                <input type="text" name="Usuario" id="usuario" placeholder="Usuario" class="input-48 required">
+                                <input type="password" name="Contraseña" id="contraseña" placeholder="Contraseña" class="input-48" required>
+                                <input type="number" name="Teléfono" id="cel" placeholder="Teléfono" class="input-100" required>
                                 <input type="submit" value="Registrarse" class="btnEnviar">
                                 <p class="formLink"> ¿Ya tienes una cuenta? <a class="linkdark" href="./ingresar.html">
                                         Ingresa aquí </a>
