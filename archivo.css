@@ -1373,7 +1373,6 @@ body.dark .sidebar a:hover{
         border-radius: 50px;
         display: flex;
         justify-content: left;
-        position: absolute;
         top: 0;
         left: 0;
         margin-left: 10px;
