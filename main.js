@@ -33,3 +33,17 @@ function enviarFormulario() {
 }
 
 /*El resto de JS está en la página index.html y en cursos.html*/
+
+/* Efecto Maquina de Escribir */
+let app = document.getElementById('typewriter');
+
+let typewriter = new Typewriter(app, {
+loop: true,
+delay: 75,
+});
+
+typewriter
+.typeString('CURSOS DE APOYO GRATUITOS PARA ESTUDIANTES')
+.pauseFor(200)
+.deleteChars(10)
+.start();

@@ -256,6 +256,12 @@ h1 {
     background-color: #8d6dc4;
 }
 
+.maquina {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .formregistro {
     width: 95%;
     max-width: 500px;
@@ -1048,7 +1054,8 @@ footer {
     transition: 1s;
 }
 
-span {
+
+.span {
     width: 30px;
     height: 30px;
     line-height: 30px;
