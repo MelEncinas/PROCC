@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-/*PASAR*/
 html {
     height: 100%;
 }
@@ -690,6 +689,7 @@ input {
     padding-top: 3%;
     padding-left: 10%;
 }
+
 /*indice*/
 
 .bye {
@@ -743,10 +743,11 @@ input {
 .btn-volver-cursos {
     text-align: center;
 }
+
 /*----------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------inicio grid----------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------*/
-  .grid-container > * {
+.grid-container>* {
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     border-radius: 4px;
     padding: 10px;
@@ -781,6 +782,7 @@ input {
 .sidebar-md {
     text-align: start;
 }
+
 /*----------fin sidebar-fondo----------*/
 
 /*----------inicio contenido----------*/
@@ -788,15 +790,18 @@ input {
     grid-area: main;
     background-color: rgb(204, 221, 236);
 }
+
 .contenido {
     padding-left: 4%;
     padding-right: 4%;
-    text-align:start;
+    text-align: start;
 }
+
 .comp-prog-titulo {
     text-align: center;
     background-color: white;
 }
+
 /*----------fin contenido----------*/
 
 /*----------inicio footer----------*/
@@ -804,6 +809,7 @@ input {
     grid-area: footer;
     background-color: #8c96a0;
 }
+
 /*----------fin footer----------*/
 
 
@@ -811,11 +817,11 @@ input {
     display: grid;
     gap: 10px;
     grid-template:
-        "header"         auto
-        "header-1"       auto
-        "sidebar-fondo"  auto
-        "main"           auto
-        "footer"         auto;
+        "header" auto
+        "header-1" auto
+        "sidebar-fondo" auto
+        "main" auto
+        "footer" auto;
 }
 
 @media (min-width: 600px) {
@@ -828,32 +834,34 @@ input {
         "sidebar main"
       "footer  footer"; */
 
-    grid-template:
-        "header         header"        auto
-        "header-1       header-1"      auto
-        "sidebar-fondo  sidebar-fondo" auto
-        "main           main"          auto
-        "footer         footer"        auto /
-        350px           auto;
+        grid-template:
+            "header         header" auto
+            "header-1       header-1" auto
+            "sidebar-fondo  sidebar-fondo" auto
+            "main           main" auto
+            "footer         footer" auto /
+            350px auto;
     }
 }
 
 @media (min-width: 900px) {
     .grid-container {
         grid-template:
-            "header         header    header"    auto
-            "header-1       header-1  header-1"  auto
-            "sidebar-fondo  main      main"      auto
-            "footer         footer    footer"    auto /
-            350px           auto      200px;
-        }
+            "header         header    header" auto
+            "header-1       header-1  header-1" auto
+            "sidebar-fondo  main      main" auto
+            "footer         footer    footer" auto /
+            350px auto 200px;
+    }
+
     .sidebar-fondo {
         position: sticky;
         top: 0;
-        overflow:auto;
+        overflow: auto;
         max-height: 100vh;
     }
 }
+
 /*----------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------fin grid----------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------*/
@@ -1032,8 +1040,8 @@ footer {
     height: 30px;
     width: 30px;
     margin: 7px;
-    background-color: white;
-    border-radius: 3px;
+    background-color: rgb(224, 218, 255);
+    border-radius: 16px;
 }
 
 
@@ -1115,15 +1123,16 @@ body.dark h3 {
     transition: 1s;
 }
 
-/*PASAR*/
 body.dark h4 {
     color: whitesmoke;
     transition: 1s;
 }
+
 body.dark h5 {
     color: whitesmoke;
     transition: 1s;
 }
+
 /*fin*/
 
 body.dark .h1principal {
@@ -1285,7 +1294,6 @@ body.dark .divpreguntas li {
     transition: 1s;
 }
 
-/*PASAR*/
 body.dark .header-1 {
     background-color: #47277e;
 }
@@ -1315,7 +1323,7 @@ body.dark .pregFrecuentes {
     transition: 1s
 }
 
-body.dark .pregFrecuentes a{
+body.dark .pregFrecuentes a {
     color: whitesmoke;
     transition: 1s
 }
@@ -1350,12 +1358,12 @@ body.dark .contenido a {
     transition: 1s
 }
 
-body.dark .contenido a:hover{
-    color:#7767ca;
+body.dark .contenido a:hover {
+    color: #7767ca;
 }
 
-body.dark .sidebar a:hover{
-    color:#7767ca;
+body.dark .sidebar a:hover {
+    color: #7767ca;
 }
 
 /*FIN MODO CLARO/OSCURO*/

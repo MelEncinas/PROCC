@@ -109,26 +109,30 @@
 
 <!-- JAVASCRIPT-->
     <script>
-        let opinion = prompt("¿Qué te parecen nuestros cursos? Ingresa 1 para 'Muy buenos', 2 para 'buenos', 3'Esperaba más', 4 para 'No me gustaron'");
+        let opinion = prompt("¿Qué te parecen nuestros cursos? Ingresa 1 para ★★★★★, 2 para ★★★★, 3 para ★★★, 4 para ★★, 5 para ★");
         console.log(opinion)
         if (opinion == "") {
             alert("No ingresaste tu opinión")
         }
         else
             if (opinion === "1") {
-                alert("Nos alegramos que sean de tu agrado")
+                alert("Tu calificación fue de ★★★★★, nos alegramos que sean de tu agrado y utilidad")
             }
             else
                 if (opinion === "2") {
-                    alert("Nos alegramos que te gusten")
+                    alert("Tu calificación fue de ★★★★, nos alegramos de que te gusten")
                 }
                 else
                     if (opinion === "3") {
-                        alert("Lamentamos que no cumplan tus expectativas")
+                        alert("Tu calificación fue de ★★★, lamentamos que no cumplan tus expectativas")
                     }
                     else
                         if (opinion === "4") {
-                            alert("Lamentamos que no sean de tu agrado. Seguiremos mejorando")
+                            alert("Tu calificación fue de ★★, gracias por tu honestidad, seguiremos mejorando")
+                        }
+                        else
+                        if (opinion === "5") {
+                            alert("Tu calificación fue de ★, lamentamos que no sean de tu agrado. Seguiremos mejorando")
                         }
 
     </script>
