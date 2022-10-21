@@ -54,6 +54,24 @@
 
     </script>
     <!--FIN ARRAY-->
+    <!-- OBJETO PARA CONTROLAR EL FUNCIONAMIENTO: SIMULANDO QUE USUARIOS INGRESARON EN EL DÍA-->
+    <script>
+        class usuarioingreso {
+            constructor(usuario, paginasvisitadas, tiempodenavegacion) {
+                this.usuario = usuario;
+                this.paginasvisitadas = paginasvisitadas;
+                this.tiempodenavegacion = tiempodenavegacion;
+            }
+            infousuario(usuarioingreso) {
+                console.log("El usuario " + this.usuario + " visitó un total de " + this.paginasvisitadas + " páginas, y estuvo en línea " + this.tiempodenavegacion + " horas.");
+            }
+        }
+        const usuario1 = new usuarioingreso("Abril", 3, 2);
+        const usuario2 = new usuarioingreso("Karen", 2, 1);
+        console.log("El usuario " + usuario1.usuario + " visitó un total de " + usuario1.paginasvisitadas + " páginas, y estuvo en línea " + usuario1.tiempodenavegacion + " horas.");
+        console.log("El usuario " + usuario2.usuario + " visitó un total de " + usuario2.paginasvisitadas + " páginas, y estuvo en línea " + usuario2.tiempodenavegacion + " horas.");
+    </script>
+    <!-- FIN OBJETO PARA CONTROLAR EL FUNCIONAMIENTO: SIMULANDO QUE USUARIOS INGRESARON EN EL DÍA-->
 
     <header>
         <div class="row">
