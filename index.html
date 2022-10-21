@@ -13,7 +13,7 @@
         <title>Home</title>
     </head>
     
-    <body>
+    <body onload="alertapersonalizada()">
         <header>
             <div class="row">
                 <div class="col-md-12 col-xs-1">
@@ -115,9 +115,10 @@
             if (nombreusuario == "") {
                 alert("No ingresaste tu nombre")
             }
-            else {
-                alert("Bienvenido/a " + nombreusuario)
-            }
+            // else {
+            //     alert("Bienvenido/a " + nombreusuario)
+            // }
+            let nombrealert = nombreusuario;
 
         </script>
     </div>
@@ -230,6 +231,8 @@
         <script src="./js/bootstrap.bundle.min.js"></script>
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <script src="main.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="alertas.js"></script>
     </body>
 
 </html>

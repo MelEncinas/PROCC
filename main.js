@@ -3,7 +3,27 @@ const boton = document.querySelector('#switch');
 boton.addEventListener('click', () => {
     document.body.classList.toggle('dark');
     boton.classList.toggle('active');
-})
+
+    //Guardar en localstorage para que se mantenga el modo nocturno mientras
+    //el usuario navega por las páginas
+    if (document.body.classList.contains('dark')) {
+        localStorage.setItem("modo-nocturno", "true");
+    } else {
+        localStorage.setItem("modo-nocturno", "false");
+    }
+});
+
+if (localStorage.getItem("modo-nocturno") === "true") {
+    document.body.classList.add('dark');
+    boton.classList.add('active');
+} else {
+    document.body.classList.remove('dark');
+    boton.classList.remove('active');
+}
+
+/*FIN MODO NOCTURNO*/
+
+
 
 /*SONIDO DE BOTÓN MODO NOCTURNO*/
 var sound = new Audio();
@@ -47,6 +67,6 @@ function enviarFormulario() {
 
 //El resto de JS está en la página index.html y en cursos.html
 //El desafío de Storage y Json se encuentran en la carpeta con el mismo nombre
-//La consigna de la pre-entrega n°3 se encuentra en la página areapersonal.html, 
+//La consigna de la pre-entrega n°3 se encuentra en la página areapersonal.html,
 //donde simulamos el ingreso de usuarios en el día; y en la página cursos.html
 //donde agregamos un array

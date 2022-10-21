@@ -3,9 +3,22 @@
     margin: 0;
 }
 
+
+
 html {
     height: 100%;
 }
+
+/* ALERTAS PERSONALIZADAS */
+.footeralert {
+    color: #484070 !important;
+}
+
+.popup {
+    border-radius: 1000px;
+}
+
+/* FIN ALERTAS PERSONALIZADAS */
 
 /*ASPECTOS GENERALES*/
 .row {
@@ -1532,6 +1545,10 @@ body.dark .contenido a:hover {
 
 body.dark .sidebar a:hover {
     color: #7767ca;
+}
+
+body.dark .titlealert {
+    color: black;
 }
 
 /*FIN MODO CLARO/OSCURO*/
