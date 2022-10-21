@@ -213,6 +213,12 @@ a {
 
 
 /*PAGINA PRINCIPAL*/
+#ingresar1 {
+    background-color: #0a0a0c;
+    color: whitesmoke;
+    margin-right: 10px;
+    border-radius: 10px;
+}
 
 .encabezado {
     width: 400px;
@@ -383,9 +389,18 @@ input {
 
 
 .editarusuario {
-    margin-left: 40px;
+    margin-left: 30px;
+    width: 200px;
     text-decoration: none;
-    color: gray;
+    color: rgb(201, 190, 219);
+    background: #484875;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.editarusuario:hover {
+    background-color: #0a0a0c;
+    color: rgb(67, 224, 145);
 }
 
 .nombreusuario {
@@ -479,7 +494,98 @@ input {
     font-size: x-large;
 }
 
+.videomusica {
+    margin-left: 400px;
+}
+
+#pmusica {
+    margin-left: 450px;
+    background-color: rgb(84, 73, 136);
+    color: rgb(8, 8, 8);
+    border-radius: 1000px;
+    width: 300px;
+    text-align: center;
+}
+
+#phalidon {
+    margin-left: 450px;
+    background-color: rgb(14, 13, 19);
+    color: rgb(255, 255, 255);
+    border-radius: 1000px;
+    width: 300px;
+    text-align: center;
+}
+
+.auriculares {
+    width: 200px;
+    margin-left: 500px;
+}
+
 /*FIN ÁREA PERSONAL*/
+
+/*EDITAR USUARIO*/
+.h1editar {
+    background-image: url(./assets/fondonegro.jpg);
+    border-radius: 1000px;
+    color: rgb(181, 182, 247);
+    font: bolder;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.editar {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.usuarioeditado {
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+
+.archivo {
+    background-color: #464688;
+    border-radius: 1000px;
+}
+
+#peditar {
+    margin-left: 15px;
+    background-color: #18181d;
+    border-radius: 1000px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.flecha {
+    width: 25px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+
+.guardar {
+    border-radius: 1000px;
+    width: 100px;
+    height: 40px;
+}
+
+.guardar :hover {
+    color: #7767ca;
+}
+
+.osoeditando {
+    width: 250px;
+    margin-bottom: 20px;
+
+}
+
+.formeditar {
+    width: 1000px;
+    background-color: #e1d9ee;
+    margin: 0 auto;
+}
+
+/*FIN EDITAR USUARIO */
 
 .iconocentro {
     margin: 10px;
@@ -488,6 +594,68 @@ input {
 /*MIS DATOS*/
 .misdatos {
     padding: 20px;
+}
+
+.iconodatospersonales {
+    width: 15px;
+    margin: 10px;
+}
+
+#nombre1 {
+    background-color: #33333f;
+    color: whitesmoke;
+    margin: 10px;
+    border-radius: 1000px;
+}
+
+#apellido1 {
+    background-color: #464688;
+    color: whitesmoke;
+    margin: 10px;
+    border-radius: 1000px;
+}
+
+#edad1 {
+    background-color: #33333f;
+    color: whitesmoke;
+    margin: 10px;
+    border-radius: 1000px;
+}
+
+#mail1 {
+    background-color: #464688;
+    color: whitesmoke;
+    margin: 10px;
+    border-radius: 1000px;
+}
+
+#cel1 {
+    background-color: #33333f;
+    color: whitesmoke;
+    margin: 10px;
+    border-radius: 1000px;
+}
+
+.editarusuario2 {
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(192, 229, 192);
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 1px;
+    text-align: center;
+    font-size: larger;
+}
+
+.editarusuario2:hover {
+    background-color: #2a2636;
+    color: #9b9bb3;
+    border-radius: 1000px;
+}
+
+.cursosprogreso {
+    padding: 1rem;
 }
 
 /*FIN MIS DATOS*/
@@ -1461,9 +1629,75 @@ body.dark .sidebar a:hover {
         font-size: medium;
     }
 
+    .videomusica {
+        margin: 0;
+    }
+
+    .videorelajante {
+        width: 100%;
+    }
+
+    #phalidon {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #pmusica {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .auriculares {
+        width: 100px;
+        margin-left: 100px;
+    }
+
+
     .iconocentro {
         display: flex;
         flex-direction: column;
+    }
+
+    .usuarioeditado {
+        margin-left: 40px;
+    }
+
+    .archivo {
+        width: 189px;
+        height: 50px;
+        font-size: x-small;
+        margin-left: 20px;
+        background-color: #988eca;
+    }
+
+    .guardar {
+        font-size: small;
+    }
+
+    #peditar {
+        font-size: small;
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    .flecha {
+        width: 20px;
+    }
+
+    .osoeditando {
+        width: 100px;
+    }
+
+    .formeditar {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .guardar {
+        height: 30px;
+        margin-left: 30px;
     }
 
     .bye {
@@ -1548,5 +1782,9 @@ body.dark .sidebar a:hover {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .auriculares {
+        margin-left: 120px;
     }
 }

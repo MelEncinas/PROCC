@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/P ICONO blanco.png">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f5652ac366.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -14,10 +15,10 @@
 </head>
 
 <body>
-    <!--COMIENZO ARRAY-->  
+    <!--COMIENZO ARRAY-->
     <script>
         const registromotivacional = ["motivado", "desmotivado", "desafiado", "otro"];
-        
+
         let emocion1 = registromotivacional[0];
         let emocion2 = registromotivacional[1];
         let emocion3 = registromotivacional[2];
@@ -30,29 +31,29 @@
 
         console.log("La longitud de nuestro array inicial es :", registromotivacional.length);
 
-/* SIMULANDO QUE UN USUARIO SELECCIONÓ "OTRO" E INGRESÓ SU EMOCIÓN*/
+        /* SIMULANDO QUE UN USUARIO SELECCIONÓ "OTRO" E INGRESÓ SU EMOCIÓN*/
         registromotivacional.push("triste");
         console.log(registromotivacional);
         let emocion5 = registromotivacional[4];
         console.log(emocion5);
-/* SIMULANDO QUE UN SEGUNDO USUARIO SELECCIONÓ "OTRO" E INGRESÓ SU EMOCIÓN*/
+        /* SIMULANDO QUE UN SEGUNDO USUARIO SELECCIONÓ "OTRO" E INGRESÓ SU EMOCIÓN*/
 
-registromotivacional.push("feliz");
-console.log(registromotivacional);
-let emocion6 = registromotivacional [5];
-console.log(emocion6);
+        registromotivacional.push("feliz");
+        console.log(registromotivacional);
+        let emocion6 = registromotivacional[5];
+        console.log(emocion6);
 
-/* SIMULANDO QUE UN TERCER USUARIO SELECCIONÓ "OTRO" E INGRESÓ SU EMOCIÓN*/
+        /* SIMULANDO QUE UN TERCER USUARIO SELECCIONÓ "OTRO" E INGRESÓ SU EMOCIÓN*/
 
-registromotivacional.push("ansioso");
-console.log(registromotivacional);
-let emocion7 = registromotivacional [6];
-console.log(emocion7);
+        registromotivacional.push("ansioso");
+        console.log(registromotivacional);
+        let emocion7 = registromotivacional[6];
+        console.log(emocion7);
 
-console.log("La longitud de nuestro array actualizado es :", registromotivacional.length);
+        console.log("La longitud de nuestro array actualizado es :", registromotivacional.length);
 
     </script>
-<!--FIN ARRAY-->  
+    <!--FIN ARRAY-->
 
     <header>
         <div class="row">
@@ -158,7 +159,7 @@ console.log("La longitud de nuestro array actualizado es :", registromotivaciona
 
                 <div class="divusuario">
                     <img class="usuario" src="./assets/usuario.png" alt="usuario" width="130"> <br>
-                    <a class="editarusuario" href="./editarusuario.html"> Editar </a>
+                    <a class="editarusuario" href="./editarusuario.html"> Editar ➡ </a>
                 </div>
 
 
@@ -195,6 +196,25 @@ console.log("La longitud de nuestro array actualizado es :", registromotivaciona
 
             </div>
 
+
+
+
+
+            <div>
+                <div>
+                    <p class="pdark" id="phalidon">Playlist de HALIDONMUSIC link ⬇ </p>
+                    <a class="pdark" id="pmusica" href="https://www.youtube.com/watch?v=9V5rXZWdH3Y&list=PLcGkkXtask_dNaSOlDOACIBjSs-KyNrQl"> MUSICA RELAJANTE PARA ESTUDIAR ♬♪</a>
+                    <img class="auriculares" src="./assets/auriculares.png" alt="auriculares">
+                </div>
+                <div class="videomusica">
+                    <iframe width="400" height="200" src="https://www.youtube.com/embed/BMuknRb7woc"
+                        title="Música Clásica para Estudiar y Estimular el Cerebro | Mozart, Vivaldi, Tchaikovsky..."
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="videorelajante"></iframe>
+                </div>
+            </div>
+
             <div>
                 <h3 class="h3cursos"> MIS CURSOS</h3>
             </div>
@@ -202,21 +222,25 @@ console.log("La longitud de nuestro array actualizado es :", registromotivaciona
             <div class="iconocentro">
 
                 <div>
-                    <img class="icono" src="./assets/iconocursos.png" alt="Curso1">
+                    <img class="icono" src="./assets/oratoria.png" alt="Curso1">
                     <div>
-                        <a class="aicono_" href="./curso1.html"> CURSO 1 </a>
+                        <a class="aicono_" href="./oratoria.html"> CURSO 1 - ORATORIA </a>
+                        <p> Tu progreso: ▅ ▆ ▇</p>
+
                     </div>
                 </div>
                 <div>
-                    <img class="icono" src="./assets/iconocursos.png" alt="Curso2">
+                    <img class="icono" src="./assets/programacion.png" alt="Curso2">
                     <div>
-                        <a class="aicono_" href="./curso2.html"> CURSO 2 </a>
+                        <a class="aicono_" href="./programacion.html"> CURSO 2 - PROGRAMACIÓN </a>
+                        <p> Tu progreso: ▁ ▂ ▃ </p>
                     </div>
                 </div>
                 <div>
-                    <img class="icono" src="./assets/iconocursos.png" alt="Curso3">
+                    <img class="icono" src="./assets/comprension.png" alt="Curso3">
                     <div>
-                        <a class="aicono_" href="./curso3.html"> CURSO 3 </a>
+                        <a class="aicono_" href="./forocomprension.html"> CURSO 3 - COMPRENSIÓN </a>
+                        <p> Tu progreso: ▅ ▆ ▇ █ </p>
                     </div>
                 </div>
             </div>
