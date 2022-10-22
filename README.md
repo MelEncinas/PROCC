@@ -3,8 +3,8 @@
 El proyecto está destinado a brindar apoyo, orientación y herramientas en las áreas de:
 →Comprensión de textos
 →Redacción de textos
-→Orstoria
+→Oratoria
 →Computación
--Progeamación básica
+-Programación básica
 
 Link de acceso: https://melencinas.github.io/PROCC/index.html
