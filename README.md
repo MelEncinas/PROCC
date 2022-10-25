@@ -1,5 +1,8 @@
-# PROCC
-![Icono procc](https://user-images.githubusercontent.com/112040379/197869587-c52c7a0d-534d-4de6-be88-996b37f4e471.png)
+# ![IconoP](https://user-images.githubusercontent.com/112040379/197872275-dadd0efc-9c0c-4761-9f21-1b106adfb0a0.png) PROCC
+## INGENIAS+ YPF - FrontendINGENIAS+ YPF - Frontend
+
+
+
 
 3ra pre-entrega aplicando Javascript, Json, LocalStorage, SessionStorage y alertas personalizadas (alertas y anuncios).
 El proyecto está destinado a brindar apoyo, orientación y herramientas en las áreas de:
