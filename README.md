@@ -1,5 +1,5 @@
 # ![IconoP](https://user-images.githubusercontent.com/112040379/197872275-dadd0efc-9c0c-4761-9f21-1b106adfb0a0.png) PROCC
-## INGENIAS+ YPF - FrontendINGENIAS+ YPF - Frontend
+## INGENIAS+ YPF - Frontend
 
 
 
