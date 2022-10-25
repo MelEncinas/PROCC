@@ -16,7 +16,7 @@ function alertapersonalizada() {
 
     if (hora >= 20 && hora < 24) {
         titulo = `Buenas noches ${nombrealert}`;
-        imagen = "assets/noche.png";
+        imagen = "assets/moon.jpg";
     }
 
 
