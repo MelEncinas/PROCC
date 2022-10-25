@@ -6,7 +6,7 @@ function alertapersonalizada() {
 
     if (hora >= 0 && hora < 12) {
         titulo = `Buen día ${nombrealert}`;
-        imagen = "assets/dia.png";
+        imagen = "assets/sol.png";
     }
 
     if (hora >= 12 && hora < 20) {
