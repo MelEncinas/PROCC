@@ -761,6 +761,17 @@ border-radius: 1000px;
     border-radius: 1000px;
 }
 
+.infoimportante {
+    margin-top: 20px;
+    background-color: rgb(40, 37, 63);
+    color: whitesmoke;
+    border-radius: 1000px;
+}
+#info li {
+    text-align: justify;
+    margin: 10px;
+    list-style: none;
+}
 
 
 /*FIN SECCIÓN CURSOS*/
