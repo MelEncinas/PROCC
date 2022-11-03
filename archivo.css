@@ -536,6 +536,7 @@ input {
 
 .imgcalendario {
     width: 700px;
+    border-radius: 50px;
 }
 
 .divcalendario {
@@ -606,6 +607,47 @@ input {
     background-color: #e1d9ee;
     margin: 0 auto;
 }
+
+#nombreLi {
+    background-color: #8468ff;
+    border-radius: 1000px;
+}
+
+#apellidoLi {
+    background-color: #8468ff;
+    border-radius: 1000px;
+}
+
+#mailLi {
+    background-color: #8468ff;
+    border-radius: 1000px;
+}
+
+#usuarioLi {
+    background-color: #8468ff;
+    border-radius: 1000px;
+}
+
+#contrasenaLi {
+    background-color: #8468ff;
+    border-radius: 1000px;
+}
+
+#edadLi {
+background-color: #8468ff;
+border-radius: 1000px;
+}
+
+#cumpleLi {
+    background-color: #8468ff;
+    border-radius: 1000px;
+}
+
+#celLi {
+    background-color: #8468ff;
+    border-radius: 1000px;
+}
+
 
 /*FIN EDITAR USUARIO */
 
