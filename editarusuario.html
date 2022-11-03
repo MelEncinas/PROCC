@@ -135,53 +135,86 @@
 
         </div>
         <div class="formeditar">
-            <form action="">
+            <form action="" id="formulario">
                 <h2 class="formtitulo"> <img src="./assets/editar.png" alt="Editar datos" width="40">
                     Editar mis datos </h2>
                 <div class="contenedor-inputs">
-                    <input type="text" name="Nombre" id="nombre" placeholder="Nombres" class="input-48">
-                    <input type="text" name="Apellidos" id="apellido" placeholder="Apellidos" class="input-48">
-                    <input type="email" name="Mail" id="email" placeholder="Mail" class="input-100">
-                    <input type="text" name="Usuario" id="usuario" placeholder="Usuario" class="input-48">
-                    <input type="password" name="Contraseña" id="contraseña" placeholder="Contraseña" class="input-48">
-                    <input type="number" name="Edad" id="edad" placeholder="Edad" class="input-48">
-                    <input type="date" name="Fecha de cumpleaños" id="cumpleaños" placeholder="Fecha de cumpleaños"
+                    <input type="text" name="Nombre" id="nombreEditar" placeholder="Nombres" class="input-48">
+                    <input type="text" name="Apellidos" id="apellidoEditar" placeholder="Apellidos" class="input-48">
+                    <input type="email" name="Mail" id="emailEditar" placeholder="Mail" class="input-100">
+                    <input type="text" name="Usuario" id="usuarioEditar" placeholder="Usuario" class="input-48">
+                    <input type="password" name="Contraseña" id="contrasenaEditar" placeholder="Contraseña"
                         class="input-48">
-                    <input type="number" name="Teléfono" id="cel" placeholder="Teléfono" class="input-100">
+                    <input type="number" name="Edad" id="edadEditar" placeholder="Edad" class="input-48">
+                    <input type="date" name="Fecha de cumpleaños" id="cumpleEditar" placeholder="Fecha de cumpleaños"
+                        class="input-48">
+                    <input type="number" name="Teléfono" id="celEditar" placeholder="Teléfono" class="input-100">
                     <input type="submit" onclick="enviarFormulario()" value="Guardar" class="btnEnviar">
                 </div>
             </form>
         </div>
 
-        <p class="pdark"> Podés editar cualquier dato, no hace falta que cambies todos </p>
+        <p class="pdark text-center fw-light"> No hace falta que llenes todos los campos.</p>
+
+        <h3 id="respuestaEditar" class="text-center fw-light">
+        </h3>
+
+        <h4 id="nombreLi" class="text-center fw-light">
+        </h4>
+
+        <h4 id="apellidoLi" class="text-center fw-light">
+        </h4>
+
+        <h4 id="mailLi" class="text-center fw-light">
+        </h4>
+
+        <h4 id="usuarioLi" class="text-center fw-light">
+        </h4>
+
+        <h4 id="contrasenaLi" class="text-center fw-light">
+        </h4>
+
+        <h4 id="edadLi" class="text-center fw-light">
+        </h4>
+
+        <h4 id="cumpleLi" class="text-center fw-light">
+        </h4>
+
+        <h4 id="celLi" class="text-center fw-light">
+        </h4>
+
+        <p id="respuestaEd" class="text-center fw-light">
+        </p>
+
     </main>
 
-    <footer>
-        <div class="divlogofooter">
-            <a title="logo procc" href="./index.html"> <img class="logofooter" src="./assets/IconoP.png"
-                    alt="logo procc"> </a>
-        </div>
-        <h4 class="h4footer"> Encontranos en </h4>
+            <footer>
+                <div class="divlogofooter">
+                    <a title="logo procc" href="./index.html"> <img class="logofooter" src="./assets/IconoP.png"
+                            alt="logo procc"> </a>
+                </div>
+                <h4 class="h4footer"> Para dudas o consultas, encontranos en </h4>
 
-        <div class="divfooterimg">
-            <a title="facebook" href="www.facebook.com"><img class="footerimagenes" src="assets/facebook.png"
-                    alt="facebook"></a>
+                <div class="divfooterimg">
+                    <a title="facebook" href="https://www.facebook.com" target="_blank"><img class="footerimagenes"
+                            src="assets/facebook.png" alt="facebook"></a>
 
-            <a title="instagram" href="instagram.com"> <img class="footerimagenes" src="./assets/instagram.png"
-                    alt="instagram"> </a>
+                    <a title="instagram" href="https://www.instagram.com" target="_blank"> <img class="footerimagenes"
+                            src="./assets/instagram.png" alt="instagram"> </a>
 
-            <a title="whatsapp" href="whatsapp.com"> <img class="footerimagenes" src="./assets/whatsapp.png"
-                    alt="whatsapp"> </a>
+                    <a title="whatsapp" href="https://www.whatsapp.com/?lang=es" target="_blank"> <img
+                            class="footerimagenes" src="./assets/whatsapp.png" alt="whatsapp"> </a>
 
-            <a title="email" href="outlook.com"> <img class="footerimagenes" src="./assets/sobre.png" alt="email">
-            </a>
+                    <a title="email" href="https://outlook.live.com/owa/" target="_blank"> <img class="footerimagenes"
+                            src="./assets/sobre.png" alt="email">
+                    </a>
 
-        </div>
-        <h5 class="h5footer"> 2022 &copy; Todos los derechos reservados</h5>
-    </footer>
+                </div>
+                <h5 class="h5footer"> 2022 &copy; Todos los derechos reservados</h5>
+            </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="main.js"></script>
+    <script src="./JavaScript/main.js"></script>
 </body>
 
 </html>

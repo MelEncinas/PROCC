@@ -534,6 +534,15 @@ input {
     margin-left: 500px;
 }
 
+.imgcalendario {
+    width: 700px;
+}
+
+.divcalendario {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
 /*FIN ÁREA PERSONAL*/
 
 /*EDITAR USUARIO*/
@@ -1644,6 +1653,10 @@ body.dark .titlealert {
         display: flex;
         justify-content: center;
         font-size: medium;
+    }
+
+    .imgcalendario {
+        width: 100%;
     }
 
     .videomusica {

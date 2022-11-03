@@ -65,8 +65,3 @@ function enviarFormulario() {
 
 }
 
-//El resto de JS está separado en los diferentes archivos .js de cada HTML correspondiente
-//El desafío de Storage y Json se encuentran en la carpeta con el mismo nombre
-//La consigna de la pre-entrega n°3 se encuentra en la página areapersonal.js,
-//donde simulamos el ingreso de usuarios en el día; y en la página cursos.js
-//donde agregamos un array
