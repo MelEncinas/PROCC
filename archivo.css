@@ -1220,6 +1220,12 @@ border-radius: 1000px;
     border-radius: 1000px;
 }
 
+.pregtitulo {
+    background-color: #1f1530;
+    color: whitesmoke;
+    border-radius: 1000px;
+}
+
 .preguntas {
     text-align: center;
 }

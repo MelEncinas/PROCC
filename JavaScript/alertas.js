@@ -5,17 +5,17 @@ function alertapersonalizada() {
     hora = fecha.getHours();
 
     if (hora >= 0 && hora < 12) {
-        titulo = `Buen día ${nombrealert}`;
+        titulo = `Buen día`;
         imagen = "assets/sol.png";
     }
 
     if (hora >= 12 && hora < 20) {
-        titulo = `Buenas tardes ${nombrealert}`;
+        titulo = `Buenas tardes`;
         imagen = "assets/atardecer.png";
     }
 
     if (hora >= 20 && hora < 24) {
-        titulo = `Buenas noches ${nombrealert}`;
+        titulo = `Buenas noches`;
         imagen = "assets/moon.jpg";
     }
 
