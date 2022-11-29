@@ -836,6 +836,27 @@ border-radius: 1000px;
 
 }
 
+.oratoria1{
+    background-color: indianred;
+    border-radius: 1000px;
+}
+
+.oratoria2 {
+    color: indianred;
+}
+
+.temario {
+    background-color: coral;
+    opacity: 1;
+    border-radius: 1000px;
+}
+
+.temas {
+    background-color: #cfc0e9;
+    text-align: center;
+    list-style: none;
+}
+
 .oratorialink {
     margin-left: 60px;
     text-decoration: none;
