@@ -1876,6 +1876,10 @@ body.dark .titlealert {
     .h5footer {
         font-size: small;
     }
+
+    .imgaspectos {
+        width: 90%;
+    }
 }
 
 @media screen and (min-width:951px) {
