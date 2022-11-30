@@ -544,6 +544,7 @@ input {
     margin-bottom: 10px;
     margin-top: 15px;
 }
+
 /*FIN ÁREA PERSONAL*/
 
 /*EDITAR USUARIO*/
@@ -634,8 +635,8 @@ input {
 }
 
 #edadLi {
-background-color: #8468ff;
-border-radius: 1000px;
+    background-color: #8468ff;
+    border-radius: 1000px;
 }
 
 #cumpleLi {
@@ -767,6 +768,7 @@ border-radius: 1000px;
     color: whitesmoke;
     border-radius: 1000px;
 }
+
 #info li {
     text-align: justify;
     margin: 10px;
@@ -836,7 +838,7 @@ border-radius: 1000px;
 
 }
 
-.oratoria1{
+.oratoria1 {
     background-color: indianred;
     border-radius: 1000px;
 }
@@ -1275,6 +1277,28 @@ border-radius: 1000px;
     padding: 20px;
     text-align: justify;
 }
+
+.aspectosgen {
+    background-color: #1f1530;
+    color: whitesmoke;
+    border-radius: 1000px;
+}
+
+.aspectos {
+    text-align: center;
+}
+
+.aspectos :hover {
+    color: #8468ff;
+}
+
+/*ASPECTOS GENERALES*/
+.logopaleta {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /*FOOTER*/
 
